@@ -8,15 +8,15 @@
         <link rel="stylesheet" href="<?php echo public_url()?>/site/css/product.css" type="text/css">
         <link rel="stylesheet" href="<?php echo public_url()?>/site/css/slide-flim.css" type="text/css">
         <!-- End CSS -->
-        
+
         <!-- the Javascript -->
-      
+
         <script src="<?php echo public_url()?>/js/jquery/jquery.min.js" type="text/javascript"></script>
 		<script src="<?php echo public_url()?>/js/jquery/jquery-ui.min.js" type="text/javascript"></script>
 		<link type="text/css" href="<?php echo public_url()?>/js/jquery/jquery-ui/custom-theme/jquery-ui-1.8.21.custom.css" rel="stylesheet">
-	    
+
         <script src="<?php echo public_url()?>/site/js/script.js"></script>
-        
+
         <!-- raty -->
 		 <script src="<?php echo public_url()?>/site/raty/jquery.raty.min.js" type="text/javascript"></script>
 		 <script type="text/javascript">
@@ -32,7 +32,7 @@
 	     </script>
 	     <style>.raty img{width:16px !important;height:16px; !important;}</style>
 	     <!--End raty -->
-     
+
         <!-- End Javascript -->
         <script type="text/javascript">
 	        $(document).ready(function(){
@@ -62,6 +62,4 @@
 		    width: auto;
 		}
 		</style>
-		<title>Học lập trình website với PHP và MYSQL</title>  
-		
-		
+		<title>Cổng thông tin thanh toán</title>  

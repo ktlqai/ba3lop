@@ -3,7 +3,7 @@
 {
 	$(document).ready(function()
 	{
-		
+
 	});
 })(jQuery);
 </script>
@@ -22,7 +22,7 @@
 					<img src="<?php echo public_url('admin'); ?>/images/icons/dark/add.png" class="titleIcon" />
 					<h6><?php echo lang('add'); ?> <?php echo lang('mod_user'); ?></h6>
 				</div>
-				
+
 				<div class="formRow">
 					<label class="formLeft" for="param_email"><?php echo lang('email'); ?>:<span class="req">*</span></label>
 					<div class="formRight">
@@ -32,7 +32,7 @@
 					</div>
 					<div class="clear"></div>
 				</div>
-				
+
 				<div class="formRow">
 					<label class="formLeft" for="param_password"><?php echo lang('password'); ?>:<span class="req">*</span></label>
 					<div class="formRight">
@@ -42,7 +42,7 @@
 					</div>
 					<div class="clear"></div>
 				</div>
-				
+
 				<div class="formRow">
 					<label class="formLeft" for="param_password_repeat"><?php echo lang('password_repeat'); ?>:<span class="req">*</span></label>
 					<div class="formRight">
@@ -52,7 +52,7 @@
 					</div>
 					<div class="clear"></div>
 				</div>
-				
+
 				<div class="formRow">
 					<label class="formLeft" for="param_name"><?php echo lang('name'); ?>:<span class="req">*</span></label>
 					<div class="formRight">
@@ -62,7 +62,7 @@
 					</div>
 					<div class="clear"></div>
 				</div>
-				
+
 				<div class="formRow">
 					<label class="formLeft" for="param_phone"><?php echo lang('phone'); ?>:</label>
 					<div class="formRight">
@@ -72,7 +72,7 @@
 					</div>
 					<div class="clear"></div>
 				</div>
-				
+
 				<div class="formRow">
 					<label class="formLeft" for="param_address"><?php echo lang('address'); ?>:</label>
 					<div class="formRight">
@@ -82,15 +82,45 @@
 					</div>
 					<div class="clear"></div>
 				</div>
-				
+
+				<div class="formRow">
+					<label class="formLeft" for="param_cmnd"><?php echo lang('cmnd'); ?>:</label>
+					<div class="formRight">
+						<span class="oneTwo"><input name="cmnd" id="param_cmnd" type="text" _autocheck="true" /></span>
+						<div name="cmnd_autocheck" class="autocheck"></div>
+						<div name="cmnd_error" class="clear error"><?php echo form_error('cmnd')?></div>
+					</div>
+					<div class="clear"></div>
+				</div>
+
+				<div class="formRow">
+					<label class="formLeft" for="param_address_giaohang"><?php echo lang('address_giaohang'); ?>:</label>
+					<div class="formRight">
+						<span class="oneTwo"><input name="address_giaohang" id="param_address_giaohang" type="text" _autocheck="true" /></span>
+						<div name="address_giaohang_autocheck" class="autocheck"></div>
+						<div name="address_giaohang_error" class="clear error"><?php echo form_error('address_giaohang')?></div>
+					</div>
+					<div class="clear"></div>
+				</div>
+
+				<div class="formRow">
+					<label class="formLeft" for="param_dob"><?php echo lang('dob'); ?>:</label>
+					<div class="formRight">
+						<span class="oneTwo"><input name="dob" id="param_dob" type="text" _autocheck="true" /></span>
+						<div name="dob_autocheck" class="autocheck"></div>
+						<div name="dob_error" class="clear error"><?php echo form_error('dob')?></div>
+					</div>
+					<div class="clear"></div>
+				</div>
+
            		<div class="formSubmit">
            			<input type="submit" value="<?php echo lang('button_add'); ?>" class="redB" />
            			<input type="reset" value="<?php echo lang('button_reset'); ?>" class="basic" />
            		</div>
         		<div class="clear"></div>
-        		
+
 			</div>
 		</fieldset>
 	</form>
-	
+
 </div>

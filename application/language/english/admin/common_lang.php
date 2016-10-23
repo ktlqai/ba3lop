@@ -93,6 +93,13 @@ $lang['user']				      		= 'Thành viên';
 $lang['name']				      		= 'Tên';
 $lang['phone']				      		= 'Điện thoại';
 $lang['address']				      	= 'Địa chỉ';
+
+$lang['address_giaohang']       = 'Địa chỉ giao hàng';
+
+$lang['cmnd']				      	= 'Số CMND';
+
+$lang['dob']                = 'Ngày tháng năm sinh';
+
 $lang['code']				        	= 'Mã';
 $lang['status']				       		= 'Trạng thái';
 $lang['sort_order']				    	= 'Thứ tự';

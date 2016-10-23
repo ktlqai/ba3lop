@@ -1,5 +1,5 @@
 <?php
-$lang['user_info']							= 'Quản lý thành viên';
+$lang['user_info']							= 'Quản lý kách hàng';//'Quản lý thành viên';
 
 $lang['title_verify_info']					= 'Thông tin xác thực';
 $lang['title_verify_edit']					= 'Chỉnh sửa thông tin xác thực';
@@ -11,7 +11,7 @@ $lang['user_blocked']						= 'Bị khóa';
 $lang['block_user']				        	= 'Khóa tài khoản';
 $lang['unblock_user']				        = 'Mở lại tài khoản';
 $lang['user_date_added']					= 'Thành viên từ';
-$lang['admin_login_user']					= 'Đăng nhập vào tài khoản thành viên';
+$lang['admin_login_user']					= 'Đăng nhập vào tài khoản người giới thiệu';//'Đăng nhập vào tài khoản thành viên';
 $lang['verify']								= 'Xác thực';
 $lang['view_verify_info']					= 'Xem thông tin xác thực';
 $lang['blocked']							= 'Khóa';
@@ -23,7 +23,7 @@ $lang['deposit']							= 'Nạp tiền';
 $lang['affiliate']                          = 'Affiliate';
 $lang['affiliate_key']                      = 'Mã giới thiệu';
 
-$lang['user_group']							= 'Nhóm thành viên';
+$lang['user_group']							= 'Nhóm người giới thiệu';//'Nhóm thành viên';
 $lang['payment']				        	= 'Cổng thanh toán';
 $lang['payment_total_amount']				= 'Số tiền giao dịch tối đa trong 1 ngày';
 
@@ -47,14 +47,18 @@ $lang['note_password']						= 'Mật khẩu phải có ít nhất 6 kí tự';
 $lang['note_password_change']				= 'Khi muốn thay đổi mật khẩu thì mới nhập giá trị';
 $lang['note_paypal_emails']					= 'Mỗi email một dòng';
 
-$lang['notice_are_you_sure_want_to_delete']	= 'Bạn có chắc chắn muốn xóa thành viên';
+$lang['notice_are_you_sure_want_to_delete']	= 'Bạn có chắc chắn muốn xóa người giới thiệu';//'Bạn có chắc chắn muốn xóa thành viên';
 $lang['notice_are_you_sure_want_to_block']	= 'Bạn có chắc chắn muốn khóa tài khoản';
 $lang['notice_are_you_sure_want_to_unblock']= 'Bạn có chắc chắn muốn mở lại tài khoản';
-$lang['notice_verify_are_you_sure_want_to_accept']	= 'Bạn có chắc chắn muốn xác thực cho thành viên: %s ?
-												Khi xác thực thì hệ thống sẽ tự động gán thành viên vào nhóm: %s.
-											';
-$lang['notice_verify_are_you_sure_want_to_cancel']	= 'Bạn có chắc chắn muốn hủy bỏ thông tin xác thực của thành viên: %s ?
-												Khi hủy bỏ thì hệ thống sẽ tự động gán thành viên vào nhóm: %s.
-											';
+$lang['notice_verify_are_you_sure_want_to_accept']	= 'Bạn có chắc chắn muốn xác thực cho người giới thiệu: %s ?
+												Khi xác thực thì hệ thống sẽ tự động gán người giới thiệu vào nhóm: %s.
+											';//'Bạn có chắc chắn muốn xác thực cho thành viên: %s ?
+												//Khi xác thực thì hệ thống sẽ tự động gán thành viên vào nhóm: %s.
+											//';
+$lang['notice_verify_are_you_sure_want_to_cancel']	= 'Bạn có chắc chắn muốn hủy bỏ thông tin xác thực của người giới thiệu: %s ?
+												Khi hủy bỏ thì hệ thống sẽ tự động gán người giới thiệu vào nhóm: %s.
+											';//'Bạn có chắc chắn muốn hủy bỏ thông tin xác thực của thành viên: %s ?
+												//Khi hủy bỏ thì hệ thống sẽ tự động gán thành viên vào nhóm: %s.
+											//';
 
 ?>

@@ -1,17 +1,17 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class User extends MY_Controller {
-	
+
 	function __construct()
 	{
 		parent::__construct();
-		
+
 		// Tai cac file thanh phan
 		$this->load->model('user_model');
 		$this->lang->load('admin/user');
 	}
-	
-	
+
+
 /*
  * ------------------------------------------------------
  *  Rule handle
@@ -22,7 +22,7 @@ class User extends MY_Controller {
     */
    function check_email()
    {
-   	   
+
    	   $email = $this->input->post('email');
        $where = array();
        $where['email'] = $email;
@@ -48,7 +48,7 @@ class User extends MY_Controller {
 	   //load thu vien validation
 	   $this->load->library('form_validation');
 	   $this->load->helper('form');
-	   
+
 	   //tao cac tap luat
 	   $this->form_validation->set_rules('email', 'Email', 'required|valid_email|callback_check_email');
 	   $this->form_validation->set_rules('name', 'Họ và tên', 'required|min_length[8]');
@@ -56,7 +56,7 @@ class User extends MY_Controller {
 	   $this->form_validation->set_rules('password', 'Mật khẩu', 'required|min_length[6]|numeric');
 	   $this->form_validation->set_rules('password_repeat', 'Nhập lại mật khẩu', 'required|matches[password]');
 	   $this->form_validation->set_rules('address', 'Địa chỉ', 'required');
-	   
+
 	   if($this->form_validation->run())
 	   {
 	       //lay du lieu tu form
@@ -72,7 +72,10 @@ class User extends MY_Controller {
 	           'email'    => $email,
 	           'password' => $password,
 	           'phone'    => $phone,
-	           'address'  => $address
+	           'address'  => $address,
+						 'ID_CMND' => $cmnd,
+	           'address_giaohang'    => $address_giaohang,
+	           'dob'  => $dob
  	       );
 	       //them thanh vien vao trong csdl
 	       if($this->user_model->create($data))
@@ -81,14 +84,14 @@ class User extends MY_Controller {
 			  redirect(base_url('admin/user'));//chuyen toi trang danh sách thành viên
 	       }
 	    }
-	    
+
 		$this->data['action'] = current_url();
-		
+
 		// Hien thi view
 		$this->data['temp'] = 'admin/user/add';
 		$this->load->view('admin/main', $this->data);
 	}
-	
+
 	/**
 	 * Chinh sua
 	 */
@@ -104,16 +107,16 @@ class User extends MY_Controller {
              $this->session->set_flashdata('flash_message', 'Khong ton tai thanh vien nay');
              redirect(admin_url('user'));
 		}
-		
+
 	   //load thu vien validation
 	   $this->load->library('form_validation');
 	   $this->load->helper('form');
-	   
+
 	   //tao cac tap luat
 	   $this->form_validation->set_rules('name', 'Họ và tên', 'required|min_length[8]');
 	   $this->form_validation->set_rules('phone', 'Số điện thoại', 'required|min_length[8]|numeric');
 	   $this->form_validation->set_rules('address', 'Địa chỉ', 'required');
-	   
+
 	   $password = $this->input->post('password');
 	   if($password)//nếu cập nhật cả mật khẩu
 	   {
@@ -126,7 +129,7 @@ class User extends MY_Controller {
 	       $name     = $this->input->post('name');
 	       $phone    = $this->input->post('phone');
 	       $address  = $this->input->post('address');
-	       
+
 	       //du lieu them vao bang thanh vien
 	       $data = array(
 	           'name'     => $name,
@@ -147,7 +150,7 @@ class User extends MY_Controller {
 	    }
 		$this->data['action'] = current_url();
 		$this->data['info']   = $info;
-		
+
 		// Hien thi view
 		$this->data['temp'] = 'admin/user/edit';
 		$this->load->view('admin/main', $this->data);
@@ -158,18 +161,18 @@ class User extends MY_Controller {
 	 */
 	function block()
 	{
-		
+
 	}
-	
+
 	/**
 	 * Mo lai tai khoan
 	 */
 	function unblock()
 	{
-		
+
 	}
-	
-	
+
+
 	/*
 	 * Xoa du lieu
 	 */
@@ -177,12 +180,12 @@ class User extends MY_Controller {
 	{
 	    $id = $this->uri->rsegment(3);
 	    $this->_del($id);
-	
+
 	    //tạo ra nội dung thông báo
 	    $this->session->set_flashdata('message', 'không tồn tại thành viên này');
 	    redirect(admin_url('user'));
 	}
-	
+
 	/*
 	 * Xóa nhiều sản phẩm
 	 */
@@ -194,7 +197,7 @@ class User extends MY_Controller {
 	        $this->_del($id);
 	    }
 	}
-	
+
 	/*
 	 *Xoa san pham
 	 */
@@ -209,9 +212,9 @@ class User extends MY_Controller {
 	    }
 	    //thuc hien xoa san pham
 	    $this->user_model->delete($id);
-	
+
 	}
-	
+
 /*
  * ------------------------------------------------------
  *  List handle
@@ -236,14 +239,14 @@ class User extends MY_Controller {
    	    $config['prev_link']   = "Trang trước";
    	    //Khoi tao phan trang
    	    $this->pagination->initialize($config);
-   	    
+
    	    $input = array();
    	    $input['limit'] = array($config['per_page'], $this->uri->rsegment(3));
 		//lay toan bo bài viết
 		$list = array();
 		$list = $this->user_model->get_list($input);
 		$this->data['list'] = $list;
-		
+
 		// Luu bien gui den view
 		$this->data['action'] = current_url();
 		// Message
@@ -256,7 +259,7 @@ class User extends MY_Controller {
 		$this->data['temp'] = 'admin/user/index';
 		$this->load->view('admin/main', $this->data);
 	}
-	
-	
-	
+
+
+
 }

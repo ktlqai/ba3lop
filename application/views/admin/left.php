@@ -79,7 +79,7 @@
 
 											<li>
 							<a href="<?php echo admin_url('user')?>">
-								Thành viên							</a>
+								<!--Thành viên-->Khách hàng							</a>
 						</li>
 
 						<li>
