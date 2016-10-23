@@ -66,6 +66,9 @@ class User extends MY_Controller {
 	       $password = md5($password);
 	       $phone    = $this->input->post('phone');
 	       $address  = $this->input->post('address');
+				 $cmnd  = $this->input->post('cmnd');
+				 $address_giaohang  = $this->input->post('address_giaohang');
+				 $dob  = $this->input->post('dob');
 	       //du lieu them vao bang thanh vien
 	       $data = array(
 	           'name'     => $name,
@@ -129,12 +132,18 @@ class User extends MY_Controller {
 	       $name     = $this->input->post('name');
 	       $phone    = $this->input->post('phone');
 	       $address  = $this->input->post('address');
+				 $cmnd  = $this->input->post('cmnd');
+				 $address_giaohang  = $this->input->post('address_giaohang');
+				 $dob  = $this->input->post('dob');
 
 	       //du lieu them vao bang thanh vien
 	       $data = array(
 	           'name'     => $name,
 	           'phone'    => $phone,
-	           'address'  => $address
+	           'address'  => $address,
+						 'ID_CMND' => $cmnd,
+	           'address_giaohang' => $address_giaohang,
+	           'dob'  => $dob
  	       );
  	       if($password)//nếu cập nhật cả mật khẩu
 	       {
