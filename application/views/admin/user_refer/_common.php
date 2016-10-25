@@ -2,8 +2,8 @@
 <div class="titleArea">
 	<div class="wrapper">
 		<div class="pageTitle">
-			<h5><?php echo $this->lang->line('mod_user'); ?></h5>
-			<span><?php echo $this->lang->line('user_info'); ?></span>
+			<h5><?php echo $this->lang->line('mod_user_refer'); ?></h5>
+			<span><?php echo $this->lang->line('user_refer_info'); ?></span>
 		</div>
 
 		<div class="horControlB menu_action">

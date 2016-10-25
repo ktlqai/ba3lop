@@ -1,5 +1,5 @@
 <?php
-$lang['user_info']							= 'Quản lý kách hàng';//'Quản lý thành viên';
+$lang['user_info']							= 'Quản lý khách hàng';//'Quản lý thành viên';
 
 $lang['title_verify_info']					= 'Thông tin xác thực';
 $lang['title_verify_edit']					= 'Chỉnh sửa thông tin xác thực';

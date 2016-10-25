@@ -17,10 +17,10 @@
 	# Gallery
 	# Buttons
 	# Content widgets
-	# Progress bars	
-	# Tables 
+	# Progress bars
+	# Tables
     # Pagination
-	# Form styles	
+	# Form styles
 	# Footer
 	# Other plugin styles
 	# Media queries (remove them if you don't want to use responsive layout)
@@ -83,7 +83,7 @@ p { padding-top: 12px; }
 
 /* Dividers */
 
-.line { height: 8px; background: url(../images/divider.png) repeat-x; display: block; }
+.line { margin-bottom:10px; height: 8px; background: url(../images/divider.png) repeat-x; display: block; }
 .cLine { height: 4px; background: url(../images/contentDivider.png) repeat-x; }
 .sidebarSep { background: url(../images/sidebarSep.png) no-repeat 50%; height: 8px; width: 100%; margin: 16px 0; }
 
@@ -107,7 +107,7 @@ p { padding-top: 12px; }
 
 .sideMargin { margin: 0 12px; }
 
-#leftSide { background: url(../images/backgrounds/leftTop.png) repeat-x 0 0; margin: 0 2px; float: left; width: 216px; padding: 0 1px; padding-bottom: 60px; } 
+#leftSide { background: url(../images/backgrounds/leftTop.png) repeat-x 0 0; margin: 0 2px; float: left; width: 216px; padding: 0 1px; padding-bottom: 60px; }
 #rightSide { padding-bottom: 62px; overflow: hidden; }
 
 .scroll { height: 182px; overflow: auto; }
@@ -135,13 +135,13 @@ select[multiple] { border: 1px solid #ddd; box-shadow: 0 0 0 2px #f4f4f4; -webki
 
 .loginWrapper { margin: -119px 0 0 -170px; position: absolute; top: 50%; left: 50%; }
 .loginWrapper .widget { width: 340px; background: #f9f9f9; border: 1px solid #cdcdcd; display: block; height: 236px; }
-.loginLogo { position: absolute; width: 236px; height: 60px; display: block; top: -55px; left: 50%; margin-left: -118px; } 
+.loginLogo { position: absolute; width: 236px; height: 60px; display: block; top: -55px; left: 50%; margin-left: -118px; }
 .loginControl { border-top: 1px solid #fff; padding: 16px 14px; }
 .logMeIn { float: right; padding: 7px 20px 8px 20px!important; }
 .loginInput { width: 190px; float: right; margin-right: 14px!important; }
 
 .rememberMe { float: left; margin-top: 6px; }
-.rememberMe label { width: auto; display: block; white-space: nowrap; margin: -2px 14px 0 14px; float: left; cursor: pointer; } 
+.rememberMe label { width: auto; display: block; white-space: nowrap; margin: -2px 14px 0 14px; float: left; cursor: pointer; }
 
 .backTo { border-left: 1px solid #39454f; border-right: 1px solid #39454f; float: left; }
 .backTo .inner { border-left: 1px solid #1c262b; border-right: 1px solid #1c262b; float: left; }
@@ -314,7 +314,7 @@ ul.sub li ul li { padding-left: 10px; }
 .profileFace { float: left; margin: 0 10px 10px 0; }
 .goUser { display: block; background: url(../images/backgrounds/sideDropdown.png) no-repeat 0 0; width: 172px; height: 21px; padding: 5px 10px; cursor: pointer; }
 .goUser:hover { background-position: 0 -32px; }
-.goUser:active { background-position: 0 -64px; } 
+.goUser:active { background-position: 0 -64px; }
 
 
 /* 3 buttons */
@@ -401,13 +401,13 @@ ul.sub li ul li { padding-left: 10px; }
 .middleNav, .widget, .sItem, .statsDetailed, .statsContent, .nav li a strong, .controlB ul li, .toggle, .smalldd ul li a strong
 { -moz-border-radius: 3px; -webkit-border-radius: 3px; -khtml-border-radius: 3px; border-radius: 3px; }
 
-.widget, .middleNav, .sItem, .statsDetailed 
+.widget, .middleNav, .sItem, .statsDetailed
 { box-shadow: 0 1px 0 #fff; -moz-box-shadow: 0 1px 0 #fff; -webkit-box-shadow: 0 1px 0 #fff; }
 
 .wButton, .nNote, .widget .num a, .tag, a.sButton, .tooltip, .tPagination ul li a, .bc, .pages li a, .smallButton, .search-choice, .horControlB ul li, .gallery ul li, .iconsGroup, .logMeIn, .wContentButton
 { -moz-border-radius: 2px; -webkit-border-radius: 2px; -khtml-border-radius: 2px; border-radius: 2px; }
 
-.contentProgress, .invoicesBar, .barG, .barO, .barB 
+.contentProgress, .invoicesBar, .barG, .barO, .barB
 { -moz-border-radius: 6px; -webkit-border-radius: 6px; -khtml-border-radius: 6px; border-radius: 6px; }
 
 .widget .title:first-child, ul.tabs, .toggle .title:first-child
@@ -416,7 +416,7 @@ ul.sub li ul li { padding-left: 10px; }
 .sItem > h2 a, .mUser a, .searchWidget input[type=text]
 { -webkit-border-top-left-radius: 3px; -webkit-border-bottom-left-radius: 3px; -moz-border-radius-topleft: 3px; -moz-border-radius-bottomleft: 3px; }
 
-.sItem > span, .mOrders a 
+.sItem > span, .mOrders a
 { -webkit-border-top-right-radius: 3px; -webkit-border-bottom-right-radius: 3px; -moz-border-radius-topright: 3px; -moz-border-radius-bottomright: 3px; }
 
 .cleditorMain, table tfoot td, .totalAmount, table tr:last-child
@@ -523,7 +523,7 @@ ul.sub li ul li { padding-left: 10px; }
 .horControlB ul li:active { background-position: 0 -86px; }
 .horControlB ul li a {  display: block; font-weight: bold; white-space: nowrap; color: #626262; }
 .horControlB ul li img { float: left; margin: 12px 12px 10px 12px; }
-.horControlB ul li a span { display: block; margin: 0px 0 0 40px; padding: 10px 16px 8px 16px; border-left: 1px solid #d5d5d5; } 
+.horControlB ul li a span { display: block; margin: 0px 0 0 40px; padding: 10px 16px 8px 16px; border-left: 1px solid #d5d5d5; }
 
 
 
@@ -659,7 +659,7 @@ input[type=submit], input[type=reset], input[type=button], button { padding: 7px
 .oneThree { width: 32%; display: inline; float: left; margin-left: 2%; }
 .oneThree:first-child { margin-left: 0; float: left; }
 
-.twoOne { width: 66%; float: right; margin-left: 2%; } 
+.twoOne { width: 66%; float: right; margin-left: 2%; }
 .twoOne:first-child { margin-left: 0; float: left; }
 
 .oneFour { width: 23%; float: left; margin-left: 2.7%; }
@@ -688,15 +688,15 @@ input[type=submit], input[type=reset], input[type=button], button { padding: 7px
 
 .toggle { background: #f9f9f9; border: 1px solid #cdcdcd; margin-top: 32px; clear: both; border-bottom: none; }
 .toggle .title { height: 36px; background: #efefef url(../images/backgrounds/titleBg.png) repeat-x; border-bottom: 1px solid #cdcdcd; cursor: pointer; }
-.toggle .title h6 { float: left; font-size: 12px; font-weight: bold; padding: 9px 12px 8px 12px; display: block; } 
+.toggle .title h6 { float: left; font-size: 12px; font-weight: bold; padding: 9px 12px 8px 12px; display: block; }
 .toggle .titleIcon { float: left; padding: 11px 11px; border-right: 1px solid #D5D5D5; }
 .toggle .body, .toggle .menu_body { padding: 12px 14px; border-bottom: 1px solid #cdcdcd; }
 .toggle .inactive { color: #2B6893; }
 
 
 .widget .loader { float: right; margin: 12px 12px 0 0; }
-.widget .title h6 { float: left; font-size: 12px; font-weight: bold; padding: 9px 12px 8px 12px; } 
-.widget .content { padding: 14px; } 
+.widget .title h6 { float: left; font-size: 12px; font-weight: bold; padding: 9px 12px 8px 12px; }
+.widget .content { padding: 14px; }
 .widget .body { padding: 12px 14px; }
 .widget > p { padding: 12px; }
 
@@ -739,7 +739,7 @@ ul.tabs li a { display: block; padding: 0px 12px; outline: none; color: #424242;
 ul.tabs li a:hover { color: #797979; }
 html ul.tabs li.activeTab  { background-color: #f9f9f9; height: 37px; }
 .rightTabs .activeTab { height: 36px!important; }
-html ul.tabs li.activeTab a { color: #2E6B9B; } 
+html ul.tabs li.activeTab a { color: #2E6B9B; }
 
 .tab_container { overflow: hidden; width: 100%; }
 .tab_content { padding: 10px 12px; }
@@ -769,15 +769,15 @@ ul.tab-attr li
     border-right: 1px solid #CDCDCD;
     font-size: 15px;
     line-height: 38px;
-	background: url(../images/backgrounds/titleBg.png) repeat-x; height: 38px; border-bottom: 1px solid #CDCDCD; 
+	background: url(../images/backgrounds/titleBg.png) repeat-x; height: 38px; border-bottom: 1px solid #CDCDCD;
 }
-ul.tab-attr li a 
+ul.tab-attr li a
 {
     display: block;
     font-size: 12px;
     font-weight: bold;
     outline: medium none;
-    padding: 0 12px;	
+    padding: 0 12px;
 }
 ul.tab-attr li a.selected
 {
@@ -1015,7 +1015,7 @@ table thead td.headerSortDown span { background: url(../images/icons/sortDown.pn
 .tPagination ul li { display: inline-block; }
 .tPagination ul li a { color: #595959; background: #fefefe url(../images/backgrounds/tPagination.png) repeat-x; padding: 3px 7px; border: 1px solid #ddd; font-size: 11px; }
 .tPagination ul li.prev a { background: url(../images/icons/prev.png) no-repeat 0; border: none; }
-.tPagination ul li.next a { background: url(../images/icons/next.png) no-repeat 100%; border: none; }	
+.tPagination ul li.next a { background: url(../images/icons/next.png) no-repeat 100%; border: none; }
 
 
 /* ========== Content pagination ========== */
@@ -1024,7 +1024,7 @@ table thead td.headerSortDown span { background: url(../images/icons/sortDown.pn
 .pages {  }
 .pages li.prev { margin-right: 15px; }
 .pages li.next { margin-left: 15px; }
-.pages li {  display: inline-block; margin: 5px 2px; } 
+.pages li {  display: inline-block; margin: 5px 2px; }
 .pages li a { height: 25px; padding: 4px 8px; text-decoration: none; color: #666666; font-weight: bold; background: url(../images/backgrounds/pagingBg.png) repeat-x 0 0; border: 1px solid #d5d5d5; font-size: 11px; }
 .pages li a:hover { background: #f6f6f6; }
 .pages li .active { background: url(../images/backgrounds/sideGradient.png) repeat-x; color: #fff; border-color: #424852; }
@@ -1060,7 +1060,7 @@ table thead td.headerSortDown span { background: url(../images/icons/sortDown.pn
 .formRow .checker, .formRow .radio { margin-right: 12px; margin-top: 4px; }
 .formRow .formRight { display: block; float: right; width: 80%; margin-right: 18px; }
 
-.form input[type=text], .form input[type=password], .form textarea { font-size: 11px; padding: 7px 6px; background: white; border: 1px solid #DDD; width: 100%; font-family: Arial, Helvetica, sans-serif; box-shadow: 0 0 0 2px #f4f4f4; -webkit-box-shadow: 0 0 0 2px #f4f4f4; -moz-box-shadow: 0 0 0 2px #f4f4f4; color: #656565; } 
+.form input[type=text], .form input[type=password], .form textarea { font-size: 11px; padding: 7px 6px; background: white; border: 1px solid #DDD; width: 100%; font-family: Arial, Helvetica, sans-serif; box-shadow: 0 0 0 2px #f4f4f4; -webkit-box-shadow: 0 0 0 2px #f4f4f4; -moz-box-shadow: 0 0 0 2px #f4f4f4; color: #656565; }
 .form input[type=text]:hover, .form input[type=password]:hover, .form textarea:hover { border-color: #d5d9dc; background: #fdfdfd; }
 .form input[type=text]:focus, .form input[type=password]:focus, .form textarea:focus { border-color: #d5d9dc; background: #fff; -webkit-box-shadow: 0 0 0 2px #f4f4f4; box-shadow: 0 0 0 2px #f4f4f4; -moz-box-shadow: 0 0 0 2px #f4f4f4; }
 input[readonly], input[disabled] { background: #FCFCFC; border: 1px solid #DADADA; color: #D1D1D1; }
@@ -1078,9 +1078,9 @@ input[readonly], input[disabled] { background: #FCFCFC; border: 1px solid #DADAD
 
 div.tagsinput { border: 1px solid #ddd; box-shadow: 0 0 0 2px #f4f4f4; -webkit-box-shadow: 0 0 0 2px #f4f4f4; -moz-box-shadow: 0 0 0 2px #f4f4f4; background: #FFF; padding: 5px; width: 100%; overflow-y: auto;}
 div.tagsinput span.tag { border: 1px solid #a5d24a; display: block; float: left; padding: 3px 8px 2px 8px; background: #cde69c; color: #638421; margin: 5px 5px 5px 5px; }
-div.tagsinput span.tag a { font-weight: bold; color: #82ad2b; font-size: 11px; float: right; margin-top: -1px; } 
+div.tagsinput span.tag a { font-weight: bold; color: #82ad2b; font-size: 11px; float: right; margin-top: -1px; }
 div.tagsinput input { width: 80px; border: none; padding: 5px; background: transparent; margin: 5px 5px 0 0; }
-div.tagsinput div { display: block; float: left; } 
+div.tagsinput div { display: block; float: left; }
 .tags_clear { clear: both; width: 100%; height: 0px; }
 .not_valid { background: #FBD8DB !important; color: #90111A !important;}
 
@@ -1256,7 +1256,7 @@ label.error { color: #A73939; font-size: 11px; display: block; width: 100%; whit
 .plupload_filelist_header, .plupload_filelist_footer { background: #EFEFEF url(../images/backgrounds/titleBg.png) repeat-x; padding: 3px 12px; color: #878787; }
 .plupload_filelist_header {	border-bottom: 1px solid #d5d5d5; height: 20px; }
 
-.plupload_filelist_footer { border-top: 1px solid #D5D5D5; line-height: 38px; vertical-align: middle; } 
+.plupload_filelist_footer { border-top: 1px solid #D5D5D5; line-height: 38px; vertical-align: middle; }
 .plupload_file_name { float: left; overflow: hidden; }
 .plupload_filelist .plupload_file_name { background: url(../images/arrow.gif) no-repeat 2px; padding-left: 14px; }
 .plupload_file_status { color: #777; }
@@ -1316,7 +1316,7 @@ li.plupload_droptext:hover { background: #fff; }
 .tipsy-sw .tipsy-arrow { bottom: 0; left: 10px; background-position: bottom left; }
 .tipsy-se .tipsy-arrow { bottom: 0; right: 10px; background-position: bottom left; }
 .tipsy-e .tipsy-arrow { top: 50%; margin-top: -4px; right: 0; width: 5px; height: 9px; background-position: top right; }
-.tipsy-w .tipsy-arrow { top: 50%; margin-top: -4px; left: 0; width: 5px; height: 9px; }	
+.tipsy-w .tipsy-arrow { top: 50%; margin-top: -4px; left: 0; width: 5px; height: 9px; }
 
 
 /* ===== Color picker ===== */
@@ -1359,7 +1359,7 @@ position: relative;
 /* ===== Growl notifications ===== */
 
 div.jGrowl { z-index: 9999; color: #fff; font-size: 12px; }
-div.ie6.top-right { 
+div.ie6.top-right {
 	right: 				auto;
 	bottom: 			auto;
 	left: 				expression( ( 0 - jGrowl.offsetWidth + ( document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth ) + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
@@ -1468,4 +1468,3 @@ ul.breadcrumbs li ul li a:hover { background: #293138 url(../images/subIcon.png)
 .SC_gold { color: #FC0; }
 .SC_pink { color: #ff68a4; }
 .SC_bold { font-weight: 700; }
-

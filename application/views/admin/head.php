@@ -5,7 +5,7 @@
 <meta name="robots" content="noindex, nofollow" />
 
 <link rel="shortcut icon" href="<?php echo public_url('admin')?>/images/icon.png" type="image/x-icon"/>
-<link rel="stylesheet" type="text/css" href="<?php echo public_url('admin/crown') ?>/css/main.css" />
+<link rel="stylesheet" type="text/css" href="<?php echo public_url('admin/crown') ?>/css/main.css?<?php echo time(); ?>" />
 <link rel="stylesheet" type="text/css" href="<?php echo public_url('admin')?>/css/css.css" media="screen" />
 
 

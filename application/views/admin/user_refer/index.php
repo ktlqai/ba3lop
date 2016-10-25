@@ -70,11 +70,11 @@
 
 
 						<td class="option">
-							 <a href="<?php echo admin_url('user/edit/'.$row->id)?>" title="<?php echo $this->lang->line('edit'); ?>" class="tipS ">
+							 <a href="<?php echo admin_url('user_refer/edit/'.$row->id)?>" title="<?php echo $this->lang->line('edit'); ?>" class="tipS ">
 							<img src="<?php echo public_url('admin') ?>/images/icons/color/edit.png" />
 							</a>
 
-							<a href="<?php echo admin_url('user/del/'.$row->id)?>" title="<?php echo $this->lang->line('delete'); ?>" class="tipS verify_action" >
+							<a href="<?php echo admin_url('user_refer/del/'.$row->id)?>" title="<?php echo $this->lang->line('delete'); ?>" class="tipS verify_action" >
 							    <img src="<?php echo public_url('admin') ?>/images/icons/color/delete.png" />
 							</a>
 						</td>

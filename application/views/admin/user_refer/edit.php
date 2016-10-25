@@ -3,13 +3,13 @@
 {
 	$(document).ready(function()
 	{
-		
+
 	});
 })(jQuery);
 </script>
 
 
-<?php $this->load->view('admin/user/_common'); ?>
+<?php $this->load->view('admin/user_refer/_common'); ?>
 
 <!-- Main content wrapper -->
 <div class="wrapper">
@@ -22,7 +22,7 @@
 					<img src="<?php echo public_url('admin'); ?>/images/icons/dark/edit.png" class="titleIcon" />
 					<h6><?php echo lang('edit'); ?> <?php echo lang('mod_user'); ?></h6>
 				</div>
-				
+
 				<div class="formRow">
 					<label class="formLeft" for="param_password"><?php echo lang('password'); ?>:<span class="req">*</span></label>
 					<div class="formRight">
@@ -33,7 +33,7 @@
 					</div>
 					<div class="clear"></div>
 				</div>
-				
+
 				<div class="formRow">
 					<label class="formLeft" for="param_password_repeat"><?php echo lang('password_repeat'); ?>:<span class="req">*</span></label>
 					<div class="formRight">
@@ -43,7 +43,7 @@
 					</div>
 					<div class="clear"></div>
 				</div>
-				
+
 				<div class="formRow">
 					<label class="formLeft" for="param_name"><?php echo lang('name'); ?>:<span class="req">*</span></label>
 					<div class="formRight">
@@ -53,7 +53,7 @@
 					</div>
 					<div class="clear"></div>
 				</div>
-				
+
 				<div class="formRow">
 					<label class="formLeft" for="param_phone"><?php echo lang('phone'); ?>:</label>
 					<div class="formRight">
@@ -63,7 +63,7 @@
 					</div>
 					<div class="clear"></div>
 				</div>
-				
+
 				<div class="formRow">
 					<label class="formLeft" for="param_address"><?php echo lang('address'); ?>:</label>
 					<div class="formRight">
@@ -73,16 +73,16 @@
 					</div>
 					<div class="clear"></div>
 				</div>
-				
-				
+
+
            		<div class="formSubmit">
            			<input type="submit" value="<?php echo lang('button_update'); ?>" class="redB" />
            			<input type="reset" value="<?php echo lang('button_reset'); ?>" class="basic" />
            		</div>
         		<div class="clear"></div>
-        		
+
 			</div>
 		</fieldset>
 	</form>
-	
+
 </div>

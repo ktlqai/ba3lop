@@ -53,7 +53,10 @@ $lang['mod_slide']				        = 'Slide';
 $lang['group_account']					= 'Tài khoản';
 $lang['mod_admin_group']                = 'Nhóm quản trị';
 $lang['mod_admin']				      	= 'Ban quản trị';
-$lang['mod_user']				      	= 'Thành viên';
+$lang['mod_user']				      	= 'Khách hàng';//'Thành viên';
+
+$lang['mod_user_refer']         = 'Người giới thiệu';
+
 $lang['mod_user_group']				    = 'Nhóm thành viên';
 $lang['mod_group_user']				    = 'Nhóm thành viên';
 $lang['mod_login_history']				= 'Lịch sử đăng nhập';
