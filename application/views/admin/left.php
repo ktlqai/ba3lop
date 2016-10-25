@@ -16,13 +16,35 @@
 
 			<li class="home">
 
-			<a href="<?php echo admin_url()?>" class="active" id="current">
-				<span>Bảng điều khiển</span>
-				<strong></strong>
-			</a>
+					<a href="<?php echo admin_url()?>" class="active" id="current">
+						<span>Bảng điều khiển</span>
+						<strong></strong>
+					</a>
 
+
+			</li>
+
+		<li class="tran">
+
+				<a href="" class="exp inactive">
+					<span>Nhập liệu: <!--khách, ng gioi thieu, -->don hang</span>
+					<strong></strong>
+				</a>
+
+				<ul style="display: none;" class="sub">
+								<li>
+									<a href="<?php echo admin_url('inputorder')?>">
+										Đơn hàng							</a>
+								</li>
+								<!--
+								<li>
+									<a href="<?php echo admin_url('order')?>">
+										Đơn hàng sản phẩm							</a>
+								</li>-->
+				</ul>
 
 		</li>
+
 			<li class="tran">
 
 			<a href="" class="exp inactive">
@@ -31,15 +53,24 @@
 			</a>
 
 							<ul style="display: none;" class="sub">
-											<li>
-							<a href="<?php echo admin_url('transaction')?>">
-								Giao dịch							</a>
-						</li>
-											<li>
-							<a href="<?php echo admin_url('order')?>">
-								Đơn hàng sản phẩm							</a>
-						</li>
-									</ul>
+														<li>
+										<a href="<?php echo admin_url('transaction')?>">
+											Giao dịch							</a>
+									</li>
+														<li>
+										<a href="<?php echo admin_url('order')?>">
+											Đơn hàng sản phẩm							</a>
+									</li>
+
+									<li>
+											<a href="<?php echo admin_url('transactionbyinput')?>">
+											Giao dịch	do	nhập tay					</a>
+									</li>
+									<li>
+											<a href="<?php echo admin_url('orderbyinput')?>">
+											Đơn hàng sản phẩm	do nhập tay						</a>
+									</li>
+							</ul>
 
 		</li>
 			<li class="product">
