@@ -1,10 +1,20 @@
 <script type="text/javascript">
 (function($)
 {
+	
 	$(document).ready(function()
 	{
 
 	});
+	
+	$(document).ready(function()
+{  
+		//sử dụng autocomplete với input có id = key
+		$( "input#param_user_name" ).autocomplete({
+			source:'<?php echo admin_url('autocompletejqueryui/searchUserNames'); ?>', //link xử lý dữ liệu tìm kiếm
+		})
+	});
+	
 })(jQuery);
 </script>
 
@@ -26,25 +36,37 @@
 				<style>
 				.formRow-One_Two {width: 48%; float: left; margin-left: 10px; margin-top: 10px;}
 				
+				.formRow-One_Three {width: 28%; float: left; margin-left: 10px; margin-top: 10px;}
+				
 				.formRow-One_Four {width: 22%; float: left; margin-left: 10px; margin-top: 10px;}
 				</style>
 
-				<div class="formRow-One_Two">
-					<label class="formLeft" for="param_email"><?php echo lang('dathang_user_name'); ?>:<span class="req">*</span></label>
+				<div class="formRow-One_Three">
+					<label class="formLeft" for="param_user_name"><?php echo lang('dathang_user_name'); ?>:<span class="req">*</span></label>
 					<div class="formRight">
-						<span class="oneTwo"><input name="email" id="param_email" _autocheck="true" type="text" /></span>
-						<span name="email_autocheck" class="autocheck"></span>
-						<div name="email_error" class="clear error"><?php echo form_error('email')?></div>
+						<span class="oneTwo"><input name="user_name" id="param_user_name" _autocheck="true" type="text" /></span>
+						<span name="user_name_autocheck" class="autocheck"></span>
+						<div name="user_name_error" class="clear error"><?php echo form_error('user_name')?></div>
 					</div>
 					<div class="clear"></div>
 				</div>
 
-				<div class="formRow-One_Two">
+				<div class="formRow-One_Three">
 					<label class="formLeft" for="param_password"><?php echo lang('dathang_ngay'); ?>:<span class="req">*</span></label>
 					<div class="formRight">
 						<span class="oneTwo"><input name="password" id="param_password" _autocheck="true" type="password" class="tipN" title="<?php echo lang('note_password'); ?>" /></span>
 						<div name="password_autocheck" class="autocheck"></div>
 						<div name="password_error" class="clear error"><?php echo form_error('password')?></div>
+					</div>
+					<div class="clear"></div>
+				</div>
+				
+				<div class="formRow-One_Three">
+					<label class="formLeft" for="param_email"><?php echo lang('dathang_nguoi_gioi_thieu'); ?>:<span class="req">*</span></label>
+					<div class="formRight">
+						<span class="oneTwo"><input name="email" id="param_email" _autocheck="true" type="text" /></span>
+						<span name="email_autocheck" class="autocheck"></span>
+						<div name="email_error" class="clear error"><?php echo form_error('email')?></div>
 					</div>
 					<div class="clear"></div>
 				</div>

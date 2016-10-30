@@ -2,6 +2,7 @@
 
 $lang['dathang_user_name']							= 'Tên khách hàng';
 $lang['dathang_ngay']							= 'Ngày đặt hàng';
+$lang['dathang_nguoi_gioi_thieu']							= 'Người giới thiệu';
 $lang['dathang_product_name']							= 'Tên sản phẩm';
 $lang['dathang_so_luong']							= 'Số lượng';
 $lang['dathang_gia_don_vi']							= 'Giá đơn vị';
