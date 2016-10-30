@@ -33,7 +33,7 @@
 
 				<ul style="display: none;" class="sub">
 								<li>
-									<a href="<?php echo admin_url('inputorder')?>">
+									<a href="<?php echo admin_url('dathang/nhaplieu')?>">
 										Đơn hàng							</a>
 								</li>
 								<!--
