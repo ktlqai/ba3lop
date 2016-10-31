@@ -59,7 +59,60 @@ Class Dathang extends MY_Controller
 			  redirect(base_url('admin/user'));//chuyen toi trang danh sách thành viên
 	       }
 	    }*/
-
+		
+		if ($this->input->post('dathang_nhaplieu')) {
+			//lay du lieu tu form
+			$user_name     = $this->input->post('user_name');
+			$ngay_dat_hang    = $this->input->post('ngay_dat_hang');
+			$user_refer = $this->input->post('user_refer');
+			
+			$user_name_and_user_id = explode('-', $user_name);
+			$user_id = $user_name_and_user_id[1];
+			
+			$user_refer_and_user_refer_id = explode('-', $user_refer);
+			$user_refer_id = $user_refer_and_user_refer_id[1];
+			
+			//du lieu them vao bang thanh vien
+			$data = array(
+				'user_id'     => $user_id,
+				'notkeyword_date'    => $ngay_dat_hang,
+				'user_refer_id' => $user_refer_id,
+				'created'  => now()
+			);
+			
+			$str_flash = '';
+			//them thanh vien vao trong csdl
+			if($this->user_model->create($data))
+			{
+				//$this->session->set_flashdata('flash_message', 'Thêm thành viên thành công');
+				$str_flash .= 'Tạo đơn hàng thành công';
+				//redirect(base_url('admin/user'));//chuyen toi trang danh sách thành viên
+			
+				$dathang_id = $this->db->insert_id();
+				
+				$dathang_n     = $this->input->post('bao_nhieu_don_hang');
+				
+				$product_name_s = $this->input->post('product_name');
+				$so_luong    = $this->input->post('so_luong');
+				$gia_don_vi = $this->input->post('gia_don_vi');
+				for ($i = 0; $i < $dathang_n; $i++) {
+					$product_name     = $product_name_s[$i];
+					$so_luong = $so_luong_s[$i];
+					$gia_don_vi = $gia_don_vi_s[$i];
+					
+					//du lieu them vao bang thanh vien
+					$data = array(
+						'dathang_id'     => $dathang_id,
+						'tensanpham'    => $product_name,
+						'soluong' => $so_luong,
+						'giadonvi'  => $gia_don_vi
+					);
+					
+				}
+			}
+			
+		}
+			
 		$this->data['action'] = current_url();
 
 		// Hien thi view

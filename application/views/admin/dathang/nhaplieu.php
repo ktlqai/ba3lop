@@ -8,11 +8,15 @@
 	});
 	
 	$(document).ready(function()
-{  
+	{  
 		//sử dụng autocomplete với input có id = key
 		$( "input#param_user_name" ).autocomplete({
 			source:'<?php echo admin_url('autocompletejqueryui/searchUserNames'); ?>', //link xử lý dữ liệu tìm kiếm
-		})
+		});
+		
+		$( "input#param_user_refer" ).autocomplete({
+			source:'<?php echo admin_url('autocompletejqueryui/searchUserReferNames'); ?>', //link xử lý dữ liệu tìm kiếm
+		});
 	});
 	
 })(jQuery);
@@ -44,7 +48,7 @@
 				<div class="formRow-One_Three">
 					<label class="formLeft" for="param_user_name"><?php echo lang('dathang_user_name'); ?>:<span class="req">*</span></label>
 					<div class="formRight">
-						<span class="oneTwo"><input name="user_name" id="param_user_name" _autocheck="true" type="text" /></span>
+						<span class="oneTwox"><input name="user_name" id="param_user_name" _autocheck="true" type="text" /></span>
 						<span name="user_name_autocheck" class="autocheck"></span>
 						<div name="user_name_error" class="clear error"><?php echo form_error('user_name')?></div>
 					</div>
@@ -54,19 +58,19 @@
 				<div class="formRow-One_Three">
 					<label class="formLeft" for="param_password"><?php echo lang('dathang_ngay'); ?>:<span class="req">*</span></label>
 					<div class="formRight">
-						<span class="oneTwo"><input name="password" id="param_password" _autocheck="true" type="password" class="tipN" title="<?php echo lang('note_password'); ?>" /></span>
-						<div name="password_autocheck" class="autocheck"></div>
-						<div name="password_error" class="clear error"><?php echo form_error('password')?></div>
+						<span class="oneTwox"><input name="ngay_dat_hang" id="param_ngay_dat_hang" _autocheck="true" type="text" /></span>
+						<div name="ngay_dat_hang_autocheck" class="autocheck"></div>
+						<div name="ngay_dat_hang_error" class="clear error"><?php echo form_error('ngay_dat_hang')?></div>
 					</div>
 					<div class="clear"></div>
 				</div>
 				
 				<div class="formRow-One_Three">
-					<label class="formLeft" for="param_email"><?php echo lang('dathang_nguoi_gioi_thieu'); ?>:<span class="req">*</span></label>
+					<label class="formLeft" for="param_user_refer"><?php echo lang('dathang_nguoi_gioi_thieu'); ?>:<span class="req">*</span></label>
 					<div class="formRight">
-						<span class="oneTwo"><input name="email" id="param_email" _autocheck="true" type="text" /></span>
-						<span name="email_autocheck" class="autocheck"></span>
-						<div name="email_error" class="clear error"><?php echo form_error('email')?></div>
+						<span class="oneTwox"><input name="user_refer" id="param_user_refer" _autocheck="true" type="text" /></span>
+						<span name="user_refer_autocheck" class="autocheck"></span>
+						<div name="user_refer_error" class="clear error"><?php echo form_error('user_refer')?></div>
 					</div>
 					<div class="clear"></div>
 				</div>
@@ -74,9 +78,9 @@
 				<div class="formRow">
 					<label class="formLeft" for="param_address"><?php echo lang('dathang_bao_nhieu_mat_hang'); ?>:</label>
 					<div class="formRight">
-						<span class="oneTwo"><input disabled name="address" id="param_address" type="text" _autocheck="true" /></span>
-						<div name="address_autocheck" class="autocheck"></div>
-						<div name="address_error" class="clear error"><?php echo form_error('address')?></div>
+						<span class="oneTwo"><input disabled name="bao_nhieu_mat_hang" id="param_bao_nhieu_mat_hang" type="text" _autocheck="true" /></span>
+						<div name="bao_nhieu_mat_hang_autocheck" class="autocheck"></div>
+						<div name="bao_nhieu_mat_hang_error" class="clear error"><?php echo form_error('bao_nhieu_mat_hang')?></div>
 					</div>
 					<div class="clear"></div>
 				</div>
@@ -86,9 +90,9 @@
 						<div class="formRow-One_Four">
 							<label class="formLeft" for="param_password_repeat"><?php echo lang('dathang_product_name'); ?>:<span class="req">*</span></label>
 							<div class="formRight">
-								<span class="oneTwo"><input name="password_repeat" id="param_password_repeat" _autocheck="true" type="password" /></span>
-								<div name="password_repeat_autocheck" class="autocheck"></div>
-								<div name="password_repeat_error" class="clear error"><?php echo form_error('password_repeat')?></div>
+								<span class="oneTwox"><input name="product_name[]" id="param_product_name" _autocheck="true" type="password" /></span>
+								<div name="product_name_autocheck" class="autocheck"></div>
+								<div name="product_name_error" class="clear error"><?php echo form_error('product_name')?></div>
 							</div>
 							<div class="clear"></div>
 						</div>
@@ -96,9 +100,9 @@
 						<div class="formRow-One_Four">
 							<label class="formLeft" for="param_name"><?php echo lang('dathang_so_luong'); ?>:<span class="req">*</span></label>
 							<div class="formRight">
-								<span class="oneTwo"><input name="name" id="param_name" type="text" _autocheck="true" /></span>
-								<div name="name_autocheck" class="autocheck"></div>
-								<div name="name_error" class="clear error"><?php echo form_error('name')?></div>
+								<span class="oneTwox"><input name="so_luong[]" id="param_so_luong" type="text" _autocheck="true" /></span>
+								<div name="so_luong_autocheck" class="autocheck"></div>
+								<div name="so_luong_error" class="clear error"><?php echo form_error('so_luong')?></div>
 							</div>
 							<div class="clear"></div>
 						</div>
@@ -106,9 +110,9 @@
 						<div class="formRow-One_Four">
 							<label class="formLeft" for="param_phone"><?php echo lang('dathang_gia_don_vi'); ?>:</label>
 							<div class="formRight">
-								<span class="oneTwo"><input name="phone" id="param_phone" type="text" _autocheck="true" /></span>
-								<div name="phone_autocheck" class="autocheck"></div>
-								<div name="phone_error" class="clear error"><?php echo form_error('phone')?></div>
+								<span class="oneTwox"><input name="gia_don_vi[]" id="param_gia_don_vi" type="text" _autocheck="true" /></span>
+								<div name="gia_don_vi_autocheck" class="autocheck"></div>
+								<div name="gia_don_vi_error" class="clear error"><?php echo form_error('gia_don_vi')?></div>
 							</div>
 							<div class="clear"></div>
 						</div>
@@ -166,7 +170,7 @@
 				</div>-->
 
            		<div class="formSubmit">
-           			<input type="submit" value="<?php echo lang('button_add'); ?>" class="redB" />
+           			<input type="submit" name="dathang_nhaplieu" value="<?php echo lang('button_add'); ?>" class="redB" />
            			<input type="reset" value="<?php echo lang('button_reset'); ?>" class="basic" />
            		</div>
         		<div class="clear"></div>
@@ -177,18 +181,18 @@
 					var wrapper         = $(".input_fields_wrap"); //Fields wrapper
 					var add_button      = $(".add_field_button"); //Add button ID
 					
-					var x = 1; //initlal text box count
+					var x = 1; $('#param_bao_nhieu_mat_hang').val(x); //initlal text box count
 					$(add_button).click(function(e){ //on add input button click
 						e.preventDefault();
 						if(x < max_fields){ //max input box allowed
-							x++; $('#param_address').val(x); //text box increment
+							x++; $('#param_bao_nhieu_mat_hang').val(x); //text box increment
 							$(wrapper).append('<div> \
 							<div class="formRow-One_Four"> \
 						<label class="formLeft" for="param_password_repeat"><?php echo lang('dathang_product_name'); ?>:<span class="req">*</span></label> \
 						<div class="formRight"> \
-							<span class="oneTwo"><input name="password_repeat" id="param_password_repeat" _autocheck="true" type="password" /></span> \
-							<div name="password_repeat_autocheck" class="autocheck"></div> \
-							<div name="password_repeat_error" class="clear error"><?php echo form_error('password_repeat')?></div> \
+							<span class="oneTwox"><input name="product_name[]" id="param_product_name" _autocheck="true" type="password" /></span> \
+							<div name="product_name_autocheck" class="autocheck"></div> \
+							<div name="product_name_error" class="clear error"><?php echo form_error('product_name')?></div> \
 						</div> \
 						<div class="clear"></div> \
 					</div> \
@@ -196,9 +200,9 @@
 					<div class="formRow-One_Four"> \
 						<label class="formLeft" for="param_name"><?php echo lang('dathang_so_luong'); ?>:<span class="req">*</span></label> \
 						<div class="formRight"> \
-							<span class="oneTwo"><input name="name" id="param_name" type="text" _autocheck="true" /></span> \
-							<div name="name_autocheck" class="autocheck"></div> \
-							<div name="name_error" class="clear error"><?php echo form_error('name')?></div> \
+							<span class="oneTwox"><input name="so_luong[]" id="param_so_luong" type="text" _autocheck="true" /></span> \
+							<div name="so_luong_autocheck" class="autocheck"></div> \
+							<div name="so_luong_error" class="clear error"><?php echo form_error('so_luong')?></div> \
 						</div> \
 						<div class="clear"></div> \
 					</div> \
@@ -206,9 +210,9 @@
 					<div class="formRow-One_Four"> \
 						<label class="formLeft" for="param_phone"><?php echo lang('dathang_gia_don_vi'); ?>:</label> \
 						<div class="formRight"> \
-							<span class="oneTwo"><input name="phone" id="param_phone" type="text" _autocheck="true" /></span> \
-							<div name="phone_autocheck" class="autocheck"></div> \
-							<div name="phone_error" class="clear error"><?php echo form_error('phone')?></div> \
+							<span class="oneTwox"><input name="gia_don_vi[]" id="param_gia_don_vi" type="text" _autocheck="true" /></span> \
+							<div name="gia_don_vi_autocheck" class="autocheck"></div> \
+							<div name="gia_don_vi_error" class="clear error"><?php echo form_error('gia_don_vi')?></div> \
 						</div> \
 						<div class="clear"></div> \
 					</div> \
@@ -224,7 +228,7 @@
 					});
 					
 					$(wrapper).on("click",".remove_field", function(e){ //user click on remove text
-							e.preventDefault(); $(this).parent('div').parent('div').remove(); x--;
+							e.preventDefault(); $(this).parent('div').parent('div').remove(); x--; $('#param_bao_nhieu_mat_hang').val(x);
 					})
 				});
 				</script>
