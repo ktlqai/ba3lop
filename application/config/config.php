@@ -215,7 +215,7 @@ $config['directory_trigger'] = 'd';
 | your log files will fill up very fast.
 |
 */
-$config['log_threshold'] = 0;
+$config['log_threshold'] = 4;//0; // edit 0 to 4 due to using ci-log4php
 
 /*
 |--------------------------------------------------------------------------

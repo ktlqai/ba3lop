@@ -6,6 +6,8 @@ Class Dathang extends MY_Controller
         parent::__construct();
         //load ra file model
         $this->load->model('dathang_model');
+		
+		$this->load->model('dathang_dong_model');
         
         // Tai cac file thanh phan
         $this->load->helper('language');
@@ -82,23 +84,29 @@ Class Dathang extends MY_Controller
 			
 			$str_flash = '';
 			//them thanh vien vao trong csdl
-			if($this->user_model->create($data))
+			if($this->dathang_model->create($data))
 			{
 				//$this->session->set_flashdata('flash_message', 'Thêm thành viên thành công');
-				$str_flash .= 'Tạo đơn hàng thành công';
+				//$str_flash .= 'Tạo đơn hàng thành công';
 				//redirect(base_url('admin/user'));//chuyen toi trang danh sách thành viên
 			
 				$dathang_id = $this->db->insert_id();
 				
-				$dathang_n     = $this->input->post('bao_nhieu_don_hang');
+				$dathang_n     = $this->input->post('bao_nhieu_mat_hang'); //echo $dathang_n; die();
+				
+					//$this->load->helper('log4php');
+					//log_error('hogehoge');
+					//log_info('hogehoge');
+					//log_debug('hogehoge' . $dathang_n);
 				
 				$product_name_s = $this->input->post('product_name');
-				$so_luong    = $this->input->post('so_luong');
-				$gia_don_vi = $this->input->post('gia_don_vi');
+				$so_luong_s    = $this->input->post('so_luong');
+				$gia_don_vi_s = $this->input->post('gia_don_vi');
+				
 				for ($i = 0; $i < $dathang_n; $i++) {
 					$product_name     = $product_name_s[$i];
-					$so_luong = $so_luong_s[$i];
-					$gia_don_vi = $gia_don_vi_s[$i];
+					$so_luong     = $so_luong_s[$i];
+					$gia_don_vi     = $gia_don_vi_s[$i];
 					
 					//du lieu them vao bang thanh vien
 					$data = array(
@@ -108,7 +116,12 @@ Class Dathang extends MY_Controller
 						'giadonvi'  => $gia_don_vi
 					);
 					
+					$this->dathang_dong_model->create($data);
+					
 				}
+				
+				redirect(base_url('admin/dathang'));
+				
 			}
 			
 		}

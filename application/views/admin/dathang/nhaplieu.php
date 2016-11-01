@@ -78,7 +78,7 @@
 				<div class="formRow">
 					<label class="formLeft" for="param_address"><?php echo lang('dathang_bao_nhieu_mat_hang'); ?>:</label>
 					<div class="formRight">
-						<span class="oneTwo"><input disabled name="bao_nhieu_mat_hang" id="param_bao_nhieu_mat_hang" type="text" _autocheck="true" /></span>
+						<span class="oneTwo"><input name="bao_nhieu_mat_hang" id="param_bao_nhieu_mat_hang" type="text" _autocheck="true" /></span>
 						<div name="bao_nhieu_mat_hang_autocheck" class="autocheck"></div>
 						<div name="bao_nhieu_mat_hang_error" class="clear error"><?php echo form_error('bao_nhieu_mat_hang')?></div>
 					</div>
@@ -90,7 +90,7 @@
 						<div class="formRow-One_Four">
 							<label class="formLeft" for="param_password_repeat"><?php echo lang('dathang_product_name'); ?>:<span class="req">*</span></label>
 							<div class="formRight">
-								<span class="oneTwox"><input name="product_name[]" id="param_product_name" _autocheck="true" type="password" /></span>
+								<span class="oneTwox"><input name="product_name[]" id="param_product_name" _autocheck="true" type="text" /></span>
 								<div name="product_name_autocheck" class="autocheck"></div>
 								<div name="product_name_error" class="clear error"><?php echo form_error('product_name')?></div>
 							</div>
@@ -190,7 +190,7 @@
 							<div class="formRow-One_Four"> \
 						<label class="formLeft" for="param_password_repeat"><?php echo lang('dathang_product_name'); ?>:<span class="req">*</span></label> \
 						<div class="formRight"> \
-							<span class="oneTwox"><input name="product_name[]" id="param_product_name" _autocheck="true" type="password" /></span> \
+							<span class="oneTwox"><input name="product_name[]" id="param_product_name" _autocheck="true" type="text" /></span> \
 							<div name="product_name_autocheck" class="autocheck"></div> \
 							<div name="product_name_error" class="clear error"><?php echo form_error('product_name')?></div> \
 						</div> \
