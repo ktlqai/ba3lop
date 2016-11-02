@@ -209,6 +209,24 @@ Class Dathang extends MY_Controller
         
         //lay danh sach san pha
         $list = $this->dathang_model->get_list($input);
+		
+		// tinh toan ra 3 tham so nua : tongthanhtien , payment , va status
+		foreach ($list as $row) {
+			
+			$dathang_id = $row->id;
+			
+			$query = $this->db->query('SELECT SUM(soluong * giadonvi) as tongthanhtien FROM dathang_dong WHERE dathang_id = ' . $dathang_id);
+			
+			$tongthanhtien = $query->row()->tongthanhtien;
+			
+			$row->amount = $tongthanhtien;
+			
+			$row->payment = 'dont care';
+			
+			$row->status = 'why to care';
+			
+		}
+		
         $this->data['list'] = $list;
     
         $this->data['filter'] = $input['where'];

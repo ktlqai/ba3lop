@@ -1,5 +1,5 @@
 <!-- head -->
-<?php $this->load->view('admin/transaction/head', $this->data)?>
+<?php $this->load->view('admin/dathang/head', $this->data)?>
 
 <div class="line"></div>
 
@@ -41,7 +41,7 @@
 							
 							<td colspan='2' style='width:60px'>
 							<input type="submit" class="button blueB" value="<?php echo lang('filter')?>" />
-							<input type="reset" class="basic" value="Reset" onclick="window.location.href = '<?php echo admin_url('transaction'); ?>'; ">
+							<input type="reset" class="basic" value="Reset" onclick="window.location.href = '<?php echo admin_url('dathang'); ?>'; ">
 							</td>
 							
 						</tr>
@@ -88,7 +88,7 @@
 				<tr>
 					<td colspan="7">
 						 <div class="list_action itemActions">
-								<a url="<?php echo admin_url('transaction/delete_all')?>" class="button blueB" id="submit" href="#submit">
+								<a url="<?php echo admin_url('dathang/delete_all')?>" class="button blueB" id="submit" href="#submit">
 									<span style="color:white;">Xóa hết</span>
 								</a>
 						 </div>
@@ -130,11 +130,11 @@
 					<td class="textC"><?php echo get_date($row->created)?></td>
 					
 					<td class="option textC">
-						<a title="Xem chi tiết giao dịch" class="tipS lightbox" href="<?php echo admin_url('transaction/view/'.$row->id)?>">
+						<a title="Xem chi tiết giao dịch" class="tipS lightbox" href="<?php echo admin_url('dathang/view/'.$row->id)?>">
 								<img src="<?php echo public_url('admin/images')?>/icons/color/view.png">
 						 </a>
 						 
-						<a class="tipS verify_action" title="Xóa" href="<?php echo admin_url('transaction/del/'.$row->id)?>">
+						<a class="tipS verify_action" title="Xóa" href="<?php echo admin_url('dathang/del/'.$row->id)?>">
 						    <img src="<?php echo public_url('admin/images')?>/icons/color/delete.png">
 						</a>
 					</td>

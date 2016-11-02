@@ -264,3 +264,818 @@ INFO - 2016-11-02 05:09:04 --> File loaded: D:\xampp\htdocs\ba3lop\application\v
 INFO - 2016-11-02 05:09:04 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/login/index.php
 INFO - 2016-11-02 05:09:04 --> Final output sent to browser
 DEBUG - 2016-11-02 05:09:04 --> Total execution time: 0.4800
+INFO - 2016-11-02 05:44:16 --> Config Class Initialized
+INFO - 2016-11-02 05:44:16 --> Hooks Class Initialized
+DEBUG - 2016-11-02 05:44:16 --> UTF-8 Support Enabled
+INFO - 2016-11-02 05:44:16 --> Utf8 Class Initialized
+INFO - 2016-11-02 05:44:16 --> URI Class Initialized
+INFO - 2016-11-02 05:44:16 --> Router Class Initialized
+INFO - 2016-11-02 05:44:16 --> Output Class Initialized
+INFO - 2016-11-02 05:44:16 --> Security Class Initialized
+DEBUG - 2016-11-02 05:44:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-02 05:44:16 --> Input Class Initialized
+INFO - 2016-11-02 05:44:16 --> Language Class Initialized
+INFO - 2016-11-02 05:44:16 --> Loader Class Initialized
+INFO - 2016-11-02 05:44:16 --> Helper loaded: url_helper
+INFO - 2016-11-02 05:44:16 --> Helper loaded: file_helper
+INFO - 2016-11-02 05:44:16 --> Helper loaded: date_helper
+INFO - 2016-11-02 05:44:16 --> Helper loaded: common_helper
+INFO - 2016-11-02 05:44:16 --> Database Driver Class Initialized
+INFO - 2016-11-02 05:44:16 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-02 05:44:16 --> Controller Class Initialized
+INFO - 2016-11-02 05:44:16 --> Helper loaded: language_helper
+INFO - 2016-11-02 05:44:17 --> Language file loaded: language/english/admin/common_lang.php
+INFO - 2016-11-02 05:44:17 --> Helper loaded: admin_helper
+INFO - 2016-11-02 05:44:17 --> Model Class Initialized
+INFO - 2016-11-02 05:44:17 --> Model Class Initialized
+INFO - 2016-11-02 05:44:17 --> Language file loaded: language/english/admin/dathang_lang.php
+INFO - 2016-11-02 05:44:17 --> Language file loaded: language/english/admin/user_lang.php
+INFO - 2016-11-02 05:44:17 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2016-11-02 05:44:17 --> Pagination Class Initialized
+INFO - 2016-11-02 05:44:17 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/head.php
+INFO - 2016-11-02 05:44:17 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/left.php
+INFO - 2016-11-02 05:44:17 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/header.php
+INFO - 2016-11-02 05:44:17 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/transaction/head.php
+INFO - 2016-11-02 05:44:17 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/dathang/index.php
+INFO - 2016-11-02 05:44:17 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/footer.php
+INFO - 2016-11-02 05:44:17 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/main.php
+INFO - 2016-11-02 05:44:17 --> Final output sent to browser
+DEBUG - 2016-11-02 05:44:17 --> Total execution time: 0.6570
+INFO - 2016-11-02 05:51:49 --> Config Class Initialized
+INFO - 2016-11-02 05:51:49 --> Hooks Class Initialized
+DEBUG - 2016-11-02 05:51:49 --> UTF-8 Support Enabled
+INFO - 2016-11-02 05:51:49 --> Utf8 Class Initialized
+INFO - 2016-11-02 05:51:49 --> URI Class Initialized
+INFO - 2016-11-02 05:51:49 --> Router Class Initialized
+INFO - 2016-11-02 05:51:49 --> Output Class Initialized
+INFO - 2016-11-02 05:51:49 --> Security Class Initialized
+DEBUG - 2016-11-02 05:51:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-02 05:51:49 --> Input Class Initialized
+INFO - 2016-11-02 05:51:49 --> Language Class Initialized
+INFO - 2016-11-02 05:51:49 --> Loader Class Initialized
+INFO - 2016-11-02 05:51:49 --> Helper loaded: url_helper
+INFO - 2016-11-02 05:51:49 --> Helper loaded: file_helper
+INFO - 2016-11-02 05:51:50 --> Helper loaded: date_helper
+INFO - 2016-11-02 05:51:50 --> Helper loaded: common_helper
+INFO - 2016-11-02 05:51:50 --> Database Driver Class Initialized
+INFO - 2016-11-02 05:51:50 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-02 05:51:50 --> Controller Class Initialized
+INFO - 2016-11-02 05:51:50 --> Helper loaded: language_helper
+INFO - 2016-11-02 05:51:50 --> Language file loaded: language/english/admin/common_lang.php
+INFO - 2016-11-02 05:51:50 --> Helper loaded: admin_helper
+INFO - 2016-11-02 05:51:50 --> Model Class Initialized
+INFO - 2016-11-02 05:51:50 --> Model Class Initialized
+INFO - 2016-11-02 05:51:50 --> Language file loaded: language/english/admin/dathang_lang.php
+INFO - 2016-11-02 05:51:50 --> Language file loaded: language/english/admin/user_lang.php
+INFO - 2016-11-02 05:51:50 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2016-11-02 05:51:50 --> Pagination Class Initialized
+INFO - 2016-11-02 05:51:50 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/head.php
+INFO - 2016-11-02 05:51:50 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/left.php
+INFO - 2016-11-02 05:51:50 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/header.php
+INFO - 2016-11-02 05:53:34 --> Config Class Initialized
+INFO - 2016-11-02 05:53:34 --> Hooks Class Initialized
+DEBUG - 2016-11-02 05:53:34 --> UTF-8 Support Enabled
+INFO - 2016-11-02 05:53:34 --> Utf8 Class Initialized
+INFO - 2016-11-02 05:53:34 --> URI Class Initialized
+INFO - 2016-11-02 05:53:34 --> Router Class Initialized
+INFO - 2016-11-02 05:53:34 --> Output Class Initialized
+INFO - 2016-11-02 05:53:34 --> Security Class Initialized
+DEBUG - 2016-11-02 05:53:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-02 05:53:34 --> Input Class Initialized
+INFO - 2016-11-02 05:53:34 --> Language Class Initialized
+INFO - 2016-11-02 05:53:34 --> Loader Class Initialized
+INFO - 2016-11-02 05:53:34 --> Helper loaded: url_helper
+INFO - 2016-11-02 05:53:34 --> Helper loaded: file_helper
+INFO - 2016-11-02 05:53:34 --> Helper loaded: date_helper
+INFO - 2016-11-02 05:53:34 --> Helper loaded: common_helper
+INFO - 2016-11-02 05:53:34 --> Database Driver Class Initialized
+INFO - 2016-11-02 05:53:34 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-02 05:53:34 --> Controller Class Initialized
+INFO - 2016-11-02 05:53:34 --> Helper loaded: language_helper
+INFO - 2016-11-02 05:53:34 --> Language file loaded: language/english/admin/common_lang.php
+INFO - 2016-11-02 05:53:34 --> Helper loaded: admin_helper
+INFO - 2016-11-02 05:53:34 --> Model Class Initialized
+INFO - 2016-11-02 05:53:34 --> Model Class Initialized
+INFO - 2016-11-02 05:53:34 --> Language file loaded: language/english/admin/dathang_lang.php
+INFO - 2016-11-02 05:53:34 --> Language file loaded: language/english/admin/user_lang.php
+INFO - 2016-11-02 05:53:34 --> Helper loaded: form_helper
+INFO - 2016-11-02 05:53:34 --> Form Validation Class Initialized
+INFO - 2016-11-02 05:53:34 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/head.php
+INFO - 2016-11-02 05:53:34 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/left.php
+INFO - 2016-11-02 05:53:34 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/header.php
+INFO - 2016-11-02 05:53:49 --> Config Class Initialized
+INFO - 2016-11-02 05:53:49 --> Hooks Class Initialized
+DEBUG - 2016-11-02 05:53:49 --> UTF-8 Support Enabled
+INFO - 2016-11-02 05:53:49 --> Utf8 Class Initialized
+INFO - 2016-11-02 05:53:49 --> URI Class Initialized
+INFO - 2016-11-02 05:53:49 --> Router Class Initialized
+INFO - 2016-11-02 05:53:49 --> Output Class Initialized
+INFO - 2016-11-02 05:53:49 --> Security Class Initialized
+DEBUG - 2016-11-02 05:53:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-02 05:53:49 --> Input Class Initialized
+INFO - 2016-11-02 05:53:49 --> Language Class Initialized
+INFO - 2016-11-02 05:53:49 --> Loader Class Initialized
+INFO - 2016-11-02 05:53:49 --> Helper loaded: url_helper
+INFO - 2016-11-02 05:53:49 --> Helper loaded: file_helper
+INFO - 2016-11-02 05:53:49 --> Helper loaded: date_helper
+INFO - 2016-11-02 05:53:49 --> Helper loaded: common_helper
+INFO - 2016-11-02 05:53:49 --> Database Driver Class Initialized
+INFO - 2016-11-02 05:53:49 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-02 05:53:49 --> Controller Class Initialized
+INFO - 2016-11-02 05:53:49 --> Helper loaded: language_helper
+INFO - 2016-11-02 05:53:49 --> Language file loaded: language/english/admin/common_lang.php
+INFO - 2016-11-02 05:53:49 --> Helper loaded: admin_helper
+INFO - 2016-11-02 05:53:49 --> Model Class Initialized
+INFO - 2016-11-02 05:53:49 --> Model Class Initialized
+INFO - 2016-11-02 05:53:49 --> Language file loaded: language/english/admin/dathang_lang.php
+INFO - 2016-11-02 05:53:49 --> Language file loaded: language/english/admin/user_lang.php
+INFO - 2016-11-02 05:53:49 --> Helper loaded: form_helper
+INFO - 2016-11-02 05:53:49 --> Form Validation Class Initialized
+INFO - 2016-11-02 05:53:49 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/head.php
+INFO - 2016-11-02 05:53:49 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/left.php
+INFO - 2016-11-02 05:53:49 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/header.php
+INFO - 2016-11-02 05:53:49 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/dathang/_common.php
+INFO - 2016-11-02 05:53:49 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/dathang/nhaplieu.php
+INFO - 2016-11-02 05:53:49 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/footer.php
+INFO - 2016-11-02 05:53:49 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/main.php
+INFO - 2016-11-02 05:53:49 --> Final output sent to browser
+DEBUG - 2016-11-02 05:53:49 --> Total execution time: 0.4380
+INFO - 2016-11-02 05:55:40 --> Config Class Initialized
+INFO - 2016-11-02 05:55:40 --> Hooks Class Initialized
+DEBUG - 2016-11-02 05:55:40 --> UTF-8 Support Enabled
+INFO - 2016-11-02 05:55:40 --> Utf8 Class Initialized
+INFO - 2016-11-02 05:55:40 --> URI Class Initialized
+INFO - 2016-11-02 05:55:40 --> Router Class Initialized
+INFO - 2016-11-02 05:55:40 --> Output Class Initialized
+INFO - 2016-11-02 05:55:40 --> Security Class Initialized
+DEBUG - 2016-11-02 05:55:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-02 05:55:40 --> Input Class Initialized
+INFO - 2016-11-02 05:55:40 --> Language Class Initialized
+INFO - 2016-11-02 05:55:40 --> Loader Class Initialized
+INFO - 2016-11-02 05:55:40 --> Helper loaded: url_helper
+INFO - 2016-11-02 05:55:40 --> Helper loaded: file_helper
+INFO - 2016-11-02 05:55:40 --> Helper loaded: date_helper
+INFO - 2016-11-02 05:55:40 --> Helper loaded: common_helper
+INFO - 2016-11-02 05:55:40 --> Database Driver Class Initialized
+INFO - 2016-11-02 05:55:40 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-02 05:55:40 --> Controller Class Initialized
+INFO - 2016-11-02 05:55:40 --> Helper loaded: language_helper
+INFO - 2016-11-02 05:55:40 --> Language file loaded: language/english/admin/common_lang.php
+INFO - 2016-11-02 05:55:40 --> Helper loaded: admin_helper
+INFO - 2016-11-02 05:55:40 --> Model Class Initialized
+INFO - 2016-11-02 05:55:40 --> Model Class Initialized
+INFO - 2016-11-02 05:55:40 --> Language file loaded: language/english/admin/dathang_lang.php
+INFO - 2016-11-02 05:55:40 --> Language file loaded: language/english/admin/user_lang.php
+INFO - 2016-11-02 05:55:40 --> Helper loaded: form_helper
+INFO - 2016-11-02 05:55:40 --> Form Validation Class Initialized
+INFO - 2016-11-02 05:55:40 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/head.php
+INFO - 2016-11-02 05:55:40 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/left.php
+INFO - 2016-11-02 05:55:40 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/header.php
+INFO - 2016-11-02 05:55:40 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/dathang/_common.php
+INFO - 2016-11-02 05:55:40 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/dathang/nhaplieu.php
+INFO - 2016-11-02 05:55:40 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/footer.php
+INFO - 2016-11-02 05:55:40 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/main.php
+INFO - 2016-11-02 05:55:40 --> Final output sent to browser
+DEBUG - 2016-11-02 05:55:40 --> Total execution time: 0.4320
+INFO - 2016-11-02 05:55:44 --> Config Class Initialized
+INFO - 2016-11-02 05:55:44 --> Hooks Class Initialized
+DEBUG - 2016-11-02 05:55:44 --> UTF-8 Support Enabled
+INFO - 2016-11-02 05:55:44 --> Utf8 Class Initialized
+INFO - 2016-11-02 05:55:44 --> URI Class Initialized
+INFO - 2016-11-02 05:55:44 --> Router Class Initialized
+INFO - 2016-11-02 05:55:44 --> Output Class Initialized
+INFO - 2016-11-02 05:55:44 --> Security Class Initialized
+DEBUG - 2016-11-02 05:55:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-02 05:55:44 --> Input Class Initialized
+INFO - 2016-11-02 05:55:44 --> Language Class Initialized
+INFO - 2016-11-02 05:55:44 --> Loader Class Initialized
+INFO - 2016-11-02 05:55:44 --> Helper loaded: url_helper
+INFO - 2016-11-02 05:55:44 --> Helper loaded: file_helper
+INFO - 2016-11-02 05:55:44 --> Helper loaded: date_helper
+INFO - 2016-11-02 05:55:44 --> Helper loaded: common_helper
+INFO - 2016-11-02 05:55:44 --> Database Driver Class Initialized
+INFO - 2016-11-02 05:55:44 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-02 05:55:44 --> Controller Class Initialized
+INFO - 2016-11-02 05:55:44 --> Helper loaded: language_helper
+INFO - 2016-11-02 05:55:44 --> Language file loaded: language/english/admin/common_lang.php
+INFO - 2016-11-02 05:55:44 --> Helper loaded: admin_helper
+INFO - 2016-11-02 05:55:44 --> Model Class Initialized
+INFO - 2016-11-02 05:55:44 --> Model Class Initialized
+INFO - 2016-11-02 05:55:45 --> Language file loaded: language/english/admin/dathang_lang.php
+INFO - 2016-11-02 05:55:45 --> Language file loaded: language/english/admin/user_lang.php
+INFO - 2016-11-02 05:55:45 --> Helper loaded: form_helper
+INFO - 2016-11-02 05:55:45 --> Form Validation Class Initialized
+INFO - 2016-11-02 05:55:45 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/head.php
+INFO - 2016-11-02 05:55:45 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/left.php
+INFO - 2016-11-02 05:55:45 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/header.php
+INFO - 2016-11-02 05:55:45 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/dathang/_common.php
+INFO - 2016-11-02 05:55:45 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/dathang/nhaplieu.php
+INFO - 2016-11-02 05:55:45 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/footer.php
+INFO - 2016-11-02 05:55:45 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/main.php
+INFO - 2016-11-02 05:55:45 --> Final output sent to browser
+DEBUG - 2016-11-02 05:55:45 --> Total execution time: 0.3970
+INFO - 2016-11-02 05:55:48 --> Config Class Initialized
+INFO - 2016-11-02 05:55:48 --> Hooks Class Initialized
+DEBUG - 2016-11-02 05:55:48 --> UTF-8 Support Enabled
+INFO - 2016-11-02 05:55:48 --> Utf8 Class Initialized
+INFO - 2016-11-02 05:55:48 --> URI Class Initialized
+INFO - 2016-11-02 05:55:48 --> Router Class Initialized
+INFO - 2016-11-02 05:55:48 --> Output Class Initialized
+INFO - 2016-11-02 05:55:48 --> Security Class Initialized
+DEBUG - 2016-11-02 05:55:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-02 05:55:48 --> Input Class Initialized
+INFO - 2016-11-02 05:55:48 --> Language Class Initialized
+INFO - 2016-11-02 05:55:48 --> Loader Class Initialized
+INFO - 2016-11-02 05:55:48 --> Helper loaded: url_helper
+INFO - 2016-11-02 05:55:48 --> Helper loaded: file_helper
+INFO - 2016-11-02 05:55:48 --> Helper loaded: date_helper
+INFO - 2016-11-02 05:55:48 --> Helper loaded: common_helper
+INFO - 2016-11-02 05:55:48 --> Database Driver Class Initialized
+INFO - 2016-11-02 05:55:48 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-02 05:55:48 --> Controller Class Initialized
+INFO - 2016-11-02 05:55:48 --> Helper loaded: language_helper
+INFO - 2016-11-02 05:55:48 --> Language file loaded: language/english/admin/common_lang.php
+INFO - 2016-11-02 05:55:48 --> Helper loaded: admin_helper
+INFO - 2016-11-02 05:55:48 --> Model Class Initialized
+INFO - 2016-11-02 05:55:48 --> Model Class Initialized
+INFO - 2016-11-02 05:55:48 --> Language file loaded: language/english/admin/dathang_lang.php
+INFO - 2016-11-02 05:55:48 --> Language file loaded: language/english/admin/user_lang.php
+INFO - 2016-11-02 05:55:48 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2016-11-02 05:55:48 --> Pagination Class Initialized
+INFO - 2016-11-02 05:55:48 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/head.php
+INFO - 2016-11-02 05:55:48 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/left.php
+INFO - 2016-11-02 05:55:48 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/header.php
+INFO - 2016-11-02 05:55:48 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/dathang/head.php
+INFO - 2016-11-02 05:55:48 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/dathang/index.php
+INFO - 2016-11-02 05:55:48 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/footer.php
+INFO - 2016-11-02 05:55:48 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/main.php
+INFO - 2016-11-02 05:55:48 --> Final output sent to browser
+DEBUG - 2016-11-02 05:55:48 --> Total execution time: 0.4210
+INFO - 2016-11-02 05:56:07 --> Config Class Initialized
+INFO - 2016-11-02 05:56:07 --> Hooks Class Initialized
+DEBUG - 2016-11-02 05:56:07 --> UTF-8 Support Enabled
+INFO - 2016-11-02 05:56:07 --> Utf8 Class Initialized
+INFO - 2016-11-02 05:56:07 --> URI Class Initialized
+INFO - 2016-11-02 05:56:07 --> Router Class Initialized
+INFO - 2016-11-02 05:56:07 --> Output Class Initialized
+INFO - 2016-11-02 05:56:07 --> Security Class Initialized
+DEBUG - 2016-11-02 05:56:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-02 05:56:07 --> Input Class Initialized
+INFO - 2016-11-02 05:56:07 --> Language Class Initialized
+INFO - 2016-11-02 05:56:07 --> Loader Class Initialized
+INFO - 2016-11-02 05:56:07 --> Helper loaded: url_helper
+INFO - 2016-11-02 05:56:07 --> Helper loaded: file_helper
+INFO - 2016-11-02 05:56:07 --> Helper loaded: date_helper
+INFO - 2016-11-02 05:56:07 --> Helper loaded: common_helper
+INFO - 2016-11-02 05:56:07 --> Database Driver Class Initialized
+INFO - 2016-11-02 05:56:07 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-02 05:56:07 --> Controller Class Initialized
+INFO - 2016-11-02 05:56:07 --> Helper loaded: language_helper
+INFO - 2016-11-02 05:56:07 --> Language file loaded: language/english/admin/common_lang.php
+INFO - 2016-11-02 05:56:07 --> Helper loaded: admin_helper
+INFO - 2016-11-02 05:56:07 --> Model Class Initialized
+INFO - 2016-11-02 05:56:07 --> Model Class Initialized
+INFO - 2016-11-02 05:56:07 --> Language file loaded: language/english/admin/dathang_lang.php
+INFO - 2016-11-02 05:56:07 --> Language file loaded: language/english/admin/user_lang.php
+INFO - 2016-11-02 05:56:07 --> Helper loaded: form_helper
+INFO - 2016-11-02 05:56:07 --> Form Validation Class Initialized
+INFO - 2016-11-02 05:56:07 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/head.php
+INFO - 2016-11-02 05:56:07 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/left.php
+INFO - 2016-11-02 05:56:07 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/header.php
+INFO - 2016-11-02 05:56:07 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/dathang/_common.php
+INFO - 2016-11-02 05:56:07 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/dathang/nhaplieu.php
+INFO - 2016-11-02 05:56:07 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/footer.php
+INFO - 2016-11-02 05:56:07 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/main.php
+INFO - 2016-11-02 05:56:07 --> Final output sent to browser
+DEBUG - 2016-11-02 05:56:07 --> Total execution time: 0.4190
+INFO - 2016-11-02 05:56:26 --> Config Class Initialized
+INFO - 2016-11-02 05:56:26 --> Hooks Class Initialized
+DEBUG - 2016-11-02 05:56:26 --> UTF-8 Support Enabled
+INFO - 2016-11-02 05:56:26 --> Utf8 Class Initialized
+INFO - 2016-11-02 05:56:26 --> URI Class Initialized
+INFO - 2016-11-02 05:56:26 --> Router Class Initialized
+INFO - 2016-11-02 05:56:26 --> Output Class Initialized
+INFO - 2016-11-02 05:56:26 --> Security Class Initialized
+DEBUG - 2016-11-02 05:56:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-02 05:56:26 --> Input Class Initialized
+INFO - 2016-11-02 05:56:26 --> Language Class Initialized
+INFO - 2016-11-02 05:56:26 --> Loader Class Initialized
+INFO - 2016-11-02 05:56:26 --> Helper loaded: url_helper
+INFO - 2016-11-02 05:56:26 --> Helper loaded: file_helper
+INFO - 2016-11-02 05:56:26 --> Helper loaded: date_helper
+INFO - 2016-11-02 05:56:26 --> Helper loaded: common_helper
+INFO - 2016-11-02 05:56:26 --> Database Driver Class Initialized
+INFO - 2016-11-02 05:56:26 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-02 05:56:26 --> Controller Class Initialized
+INFO - 2016-11-02 05:56:26 --> Helper loaded: language_helper
+INFO - 2016-11-02 05:56:26 --> Language file loaded: language/english/admin/common_lang.php
+INFO - 2016-11-02 05:56:26 --> Helper loaded: admin_helper
+INFO - 2016-11-02 05:56:26 --> Model Class Initialized
+INFO - 2016-11-02 05:56:26 --> Language file loaded: language/english/admin/transaction_lang.php
+INFO - 2016-11-02 05:56:26 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2016-11-02 05:56:26 --> Pagination Class Initialized
+INFO - 2016-11-02 05:56:26 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/head.php
+INFO - 2016-11-02 05:56:26 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/left.php
+INFO - 2016-11-02 05:56:26 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/header.php
+INFO - 2016-11-02 05:56:26 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/transaction/head.php
+INFO - 2016-11-02 05:56:26 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/transaction/index.php
+INFO - 2016-11-02 05:56:26 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/footer.php
+INFO - 2016-11-02 05:56:26 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/main.php
+INFO - 2016-11-02 05:56:26 --> Final output sent to browser
+DEBUG - 2016-11-02 05:56:26 --> Total execution time: 0.5620
+INFO - 2016-11-02 05:56:39 --> Config Class Initialized
+INFO - 2016-11-02 05:56:39 --> Hooks Class Initialized
+DEBUG - 2016-11-02 05:56:39 --> UTF-8 Support Enabled
+INFO - 2016-11-02 05:56:39 --> Utf8 Class Initialized
+INFO - 2016-11-02 05:56:39 --> URI Class Initialized
+INFO - 2016-11-02 05:56:39 --> Router Class Initialized
+INFO - 2016-11-02 05:56:39 --> Output Class Initialized
+INFO - 2016-11-02 05:56:39 --> Security Class Initialized
+DEBUG - 2016-11-02 05:56:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-02 05:56:39 --> Input Class Initialized
+INFO - 2016-11-02 05:56:39 --> Language Class Initialized
+INFO - 2016-11-02 05:56:39 --> Loader Class Initialized
+INFO - 2016-11-02 05:56:39 --> Helper loaded: url_helper
+INFO - 2016-11-02 05:56:39 --> Helper loaded: file_helper
+INFO - 2016-11-02 05:56:39 --> Helper loaded: date_helper
+INFO - 2016-11-02 05:56:39 --> Helper loaded: common_helper
+INFO - 2016-11-02 05:56:39 --> Database Driver Class Initialized
+INFO - 2016-11-02 05:56:39 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-02 05:56:39 --> Controller Class Initialized
+INFO - 2016-11-02 05:56:39 --> Helper loaded: language_helper
+INFO - 2016-11-02 05:56:39 --> Language file loaded: language/english/admin/common_lang.php
+INFO - 2016-11-02 05:56:39 --> Helper loaded: admin_helper
+INFO - 2016-11-02 05:56:39 --> Model Class Initialized
+INFO - 2016-11-02 05:56:39 --> Model Class Initialized
+INFO - 2016-11-02 05:56:39 --> Language file loaded: language/english/admin/dathang_lang.php
+INFO - 2016-11-02 05:56:39 --> Language file loaded: language/english/admin/user_lang.php
+INFO - 2016-11-02 05:56:39 --> Helper loaded: form_helper
+INFO - 2016-11-02 05:56:39 --> Form Validation Class Initialized
+INFO - 2016-11-02 05:56:39 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/head.php
+INFO - 2016-11-02 05:56:39 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/left.php
+INFO - 2016-11-02 05:56:39 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/header.php
+INFO - 2016-11-02 05:56:39 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/dathang/_common.php
+INFO - 2016-11-02 05:56:39 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/dathang/nhaplieu.php
+INFO - 2016-11-02 05:56:39 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/footer.php
+INFO - 2016-11-02 05:56:39 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/main.php
+INFO - 2016-11-02 05:56:39 --> Final output sent to browser
+DEBUG - 2016-11-02 05:56:39 --> Total execution time: 0.4180
+INFO - 2016-11-02 05:56:41 --> Config Class Initialized
+INFO - 2016-11-02 05:56:41 --> Hooks Class Initialized
+DEBUG - 2016-11-02 05:56:41 --> UTF-8 Support Enabled
+INFO - 2016-11-02 05:56:42 --> Utf8 Class Initialized
+INFO - 2016-11-02 05:56:42 --> URI Class Initialized
+INFO - 2016-11-02 05:56:42 --> Router Class Initialized
+INFO - 2016-11-02 05:56:42 --> Output Class Initialized
+INFO - 2016-11-02 05:56:42 --> Security Class Initialized
+DEBUG - 2016-11-02 05:56:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-02 05:56:42 --> Input Class Initialized
+INFO - 2016-11-02 05:56:42 --> Language Class Initialized
+INFO - 2016-11-02 05:56:42 --> Loader Class Initialized
+INFO - 2016-11-02 05:56:42 --> Helper loaded: url_helper
+INFO - 2016-11-02 05:56:42 --> Helper loaded: file_helper
+INFO - 2016-11-02 05:56:42 --> Helper loaded: date_helper
+INFO - 2016-11-02 05:56:42 --> Helper loaded: common_helper
+INFO - 2016-11-02 05:56:42 --> Database Driver Class Initialized
+INFO - 2016-11-02 05:56:42 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-02 05:56:42 --> Controller Class Initialized
+INFO - 2016-11-02 05:56:42 --> Helper loaded: language_helper
+INFO - 2016-11-02 05:56:42 --> Language file loaded: language/english/admin/common_lang.php
+INFO - 2016-11-02 05:56:42 --> Helper loaded: admin_helper
+INFO - 2016-11-02 05:56:42 --> Model Class Initialized
+INFO - 2016-11-02 05:56:42 --> Model Class Initialized
+INFO - 2016-11-02 05:56:42 --> Language file loaded: language/english/admin/dathang_lang.php
+INFO - 2016-11-02 05:56:42 --> Language file loaded: language/english/admin/user_lang.php
+INFO - 2016-11-02 05:56:42 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2016-11-02 05:56:42 --> Pagination Class Initialized
+INFO - 2016-11-02 05:56:42 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/head.php
+INFO - 2016-11-02 05:56:42 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/left.php
+INFO - 2016-11-02 05:56:42 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/header.php
+INFO - 2016-11-02 05:56:42 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/dathang/head.php
+INFO - 2016-11-02 05:56:42 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/dathang/index.php
+INFO - 2016-11-02 05:56:42 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/footer.php
+INFO - 2016-11-02 05:56:42 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/main.php
+INFO - 2016-11-02 05:56:42 --> Final output sent to browser
+DEBUG - 2016-11-02 05:56:42 --> Total execution time: 0.4200
+INFO - 2016-11-02 05:57:31 --> Config Class Initialized
+INFO - 2016-11-02 05:57:31 --> Hooks Class Initialized
+DEBUG - 2016-11-02 05:57:31 --> UTF-8 Support Enabled
+INFO - 2016-11-02 05:57:31 --> Utf8 Class Initialized
+INFO - 2016-11-02 05:57:31 --> URI Class Initialized
+INFO - 2016-11-02 05:57:31 --> Router Class Initialized
+INFO - 2016-11-02 05:57:31 --> Output Class Initialized
+INFO - 2016-11-02 05:57:31 --> Security Class Initialized
+DEBUG - 2016-11-02 05:57:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-02 05:57:31 --> Input Class Initialized
+INFO - 2016-11-02 05:57:31 --> Language Class Initialized
+INFO - 2016-11-02 05:57:31 --> Loader Class Initialized
+INFO - 2016-11-02 05:57:31 --> Helper loaded: url_helper
+INFO - 2016-11-02 05:57:31 --> Helper loaded: file_helper
+INFO - 2016-11-02 05:57:31 --> Helper loaded: date_helper
+INFO - 2016-11-02 05:57:31 --> Helper loaded: common_helper
+INFO - 2016-11-02 05:57:31 --> Database Driver Class Initialized
+INFO - 2016-11-02 05:57:31 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-02 05:57:31 --> Controller Class Initialized
+INFO - 2016-11-02 05:57:31 --> Helper loaded: language_helper
+INFO - 2016-11-02 05:57:31 --> Language file loaded: language/english/admin/common_lang.php
+INFO - 2016-11-02 05:57:31 --> Helper loaded: admin_helper
+INFO - 2016-11-02 05:57:31 --> Model Class Initialized
+INFO - 2016-11-02 05:57:31 --> Model Class Initialized
+INFO - 2016-11-02 05:57:31 --> Language file loaded: language/english/admin/dathang_lang.php
+INFO - 2016-11-02 05:57:31 --> Language file loaded: language/english/admin/user_lang.php
+INFO - 2016-11-02 05:57:31 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2016-11-02 05:57:31 --> Pagination Class Initialized
+INFO - 2016-11-02 05:57:31 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/head.php
+INFO - 2016-11-02 05:57:31 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/left.php
+INFO - 2016-11-02 05:57:31 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/header.php
+INFO - 2016-11-02 05:57:31 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/dathang/head.php
+INFO - 2016-11-02 05:57:31 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/dathang/index.php
+INFO - 2016-11-02 05:57:31 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/footer.php
+INFO - 2016-11-02 05:57:31 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/main.php
+INFO - 2016-11-02 05:57:31 --> Final output sent to browser
+DEBUG - 2016-11-02 05:57:31 --> Total execution time: 0.4870
+INFO - 2016-11-02 05:57:46 --> Config Class Initialized
+INFO - 2016-11-02 05:57:46 --> Hooks Class Initialized
+DEBUG - 2016-11-02 05:57:46 --> UTF-8 Support Enabled
+INFO - 2016-11-02 05:57:46 --> Utf8 Class Initialized
+INFO - 2016-11-02 05:57:46 --> URI Class Initialized
+INFO - 2016-11-02 05:57:46 --> Router Class Initialized
+INFO - 2016-11-02 05:57:46 --> Output Class Initialized
+INFO - 2016-11-02 05:57:46 --> Security Class Initialized
+DEBUG - 2016-11-02 05:57:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-02 05:57:46 --> Input Class Initialized
+INFO - 2016-11-02 05:57:46 --> Language Class Initialized
+INFO - 2016-11-02 05:57:46 --> Loader Class Initialized
+INFO - 2016-11-02 05:57:46 --> Helper loaded: url_helper
+INFO - 2016-11-02 05:57:46 --> Helper loaded: file_helper
+INFO - 2016-11-02 05:57:46 --> Helper loaded: date_helper
+INFO - 2016-11-02 05:57:46 --> Helper loaded: common_helper
+INFO - 2016-11-02 05:57:46 --> Database Driver Class Initialized
+INFO - 2016-11-02 05:57:46 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-02 05:57:46 --> Controller Class Initialized
+INFO - 2016-11-02 05:57:46 --> Helper loaded: language_helper
+INFO - 2016-11-02 05:57:46 --> Language file loaded: language/english/admin/common_lang.php
+INFO - 2016-11-02 05:57:46 --> Helper loaded: admin_helper
+INFO - 2016-11-02 05:57:46 --> Model Class Initialized
+INFO - 2016-11-02 05:57:46 --> Model Class Initialized
+INFO - 2016-11-02 05:57:46 --> Language file loaded: language/english/admin/dathang_lang.php
+INFO - 2016-11-02 05:57:46 --> Language file loaded: language/english/admin/user_lang.php
+INFO - 2016-11-02 05:57:46 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2016-11-02 05:57:46 --> Pagination Class Initialized
+INFO - 2016-11-02 05:57:46 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/head.php
+INFO - 2016-11-02 05:57:46 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/left.php
+INFO - 2016-11-02 05:57:46 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/header.php
+INFO - 2016-11-02 05:57:46 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/dathang/head.php
+INFO - 2016-11-02 05:57:46 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/dathang/index.php
+INFO - 2016-11-02 05:57:46 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/footer.php
+INFO - 2016-11-02 05:57:46 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/main.php
+INFO - 2016-11-02 05:57:46 --> Final output sent to browser
+DEBUG - 2016-11-02 05:57:46 --> Total execution time: 0.4200
+INFO - 2016-11-02 05:57:49 --> Config Class Initialized
+INFO - 2016-11-02 05:57:49 --> Hooks Class Initialized
+DEBUG - 2016-11-02 05:57:49 --> UTF-8 Support Enabled
+INFO - 2016-11-02 05:57:49 --> Utf8 Class Initialized
+INFO - 2016-11-02 05:57:49 --> URI Class Initialized
+INFO - 2016-11-02 05:57:49 --> Router Class Initialized
+INFO - 2016-11-02 05:57:49 --> Output Class Initialized
+INFO - 2016-11-02 05:57:49 --> Security Class Initialized
+DEBUG - 2016-11-02 05:57:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-02 05:57:49 --> Input Class Initialized
+INFO - 2016-11-02 05:57:49 --> Language Class Initialized
+INFO - 2016-11-02 05:57:49 --> Loader Class Initialized
+INFO - 2016-11-02 05:57:49 --> Helper loaded: url_helper
+INFO - 2016-11-02 05:57:49 --> Helper loaded: file_helper
+INFO - 2016-11-02 05:57:49 --> Helper loaded: date_helper
+INFO - 2016-11-02 05:57:49 --> Helper loaded: common_helper
+INFO - 2016-11-02 05:57:49 --> Database Driver Class Initialized
+INFO - 2016-11-02 05:57:49 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-02 05:57:49 --> Controller Class Initialized
+INFO - 2016-11-02 05:57:49 --> Helper loaded: language_helper
+INFO - 2016-11-02 05:57:49 --> Language file loaded: language/english/admin/common_lang.php
+INFO - 2016-11-02 05:57:49 --> Helper loaded: admin_helper
+INFO - 2016-11-02 05:57:49 --> Model Class Initialized
+INFO - 2016-11-02 05:57:49 --> Model Class Initialized
+INFO - 2016-11-02 05:57:49 --> Language file loaded: language/english/admin/dathang_lang.php
+INFO - 2016-11-02 05:57:49 --> Language file loaded: language/english/admin/user_lang.php
+ERROR - 2016-11-02 05:57:49 --> Severity: Notice --> Undefined property: stdClass::$amount D:\xampp\htdocs\ba3lop\application\controllers\admin\Dathang.php 255
+ERROR - 2016-11-02 05:57:49 --> Severity: Notice --> Undefined property: stdClass::$status D:\xampp\htdocs\ba3lop\application\controllers\admin\Dathang.php 256
+ERROR - 2016-11-02 05:57:49 --> Severity: Notice --> Undefined property: stdClass::$amount D:\xampp\htdocs\ba3lop\application\controllers\admin\Dathang.php 255
+ERROR - 2016-11-02 05:57:49 --> Severity: Notice --> Undefined property: stdClass::$status D:\xampp\htdocs\ba3lop\application\controllers\admin\Dathang.php 256
+ERROR - 2016-11-02 05:57:49 --> Severity: Notice --> Undefined property: stdClass::$amount D:\xampp\htdocs\ba3lop\application\controllers\admin\Dathang.php 255
+ERROR - 2016-11-02 05:57:49 --> Severity: Notice --> Undefined property: stdClass::$status D:\xampp\htdocs\ba3lop\application\controllers\admin\Dathang.php 256
+ERROR - 2016-11-02 05:57:49 --> Severity: Notice --> Undefined property: stdClass::$amount D:\xampp\htdocs\ba3lop\application\views\admin\dathang\export.php 30
+ERROR - 2016-11-02 05:57:49 --> Severity: Notice --> Undefined property: stdClass::$payment D:\xampp\htdocs\ba3lop\application\views\admin\dathang\export.php 32
+ERROR - 2016-11-02 05:57:49 --> Severity: Notice --> Undefined property: stdClass::$status D:\xampp\htdocs\ba3lop\application\views\admin\dathang\export.php 35
+ERROR - 2016-11-02 05:57:49 --> Severity: Notice --> Undefined property: stdClass::$amount D:\xampp\htdocs\ba3lop\application\views\admin\dathang\export.php 30
+ERROR - 2016-11-02 05:57:49 --> Severity: Notice --> Undefined property: stdClass::$payment D:\xampp\htdocs\ba3lop\application\views\admin\dathang\export.php 32
+ERROR - 2016-11-02 05:57:49 --> Severity: Notice --> Undefined property: stdClass::$status D:\xampp\htdocs\ba3lop\application\views\admin\dathang\export.php 35
+ERROR - 2016-11-02 05:57:49 --> Severity: Notice --> Undefined property: stdClass::$amount D:\xampp\htdocs\ba3lop\application\views\admin\dathang\export.php 30
+ERROR - 2016-11-02 05:57:49 --> Severity: Notice --> Undefined property: stdClass::$payment D:\xampp\htdocs\ba3lop\application\views\admin\dathang\export.php 32
+ERROR - 2016-11-02 05:57:49 --> Severity: Notice --> Undefined property: stdClass::$status D:\xampp\htdocs\ba3lop\application\views\admin\dathang\export.php 35
+INFO - 2016-11-02 05:57:49 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/dathang/export.php
+INFO - 2016-11-02 05:57:49 --> Final output sent to browser
+DEBUG - 2016-11-02 05:57:49 --> Total execution time: 0.5510
+INFO - 2016-11-02 05:57:51 --> Config Class Initialized
+INFO - 2016-11-02 05:57:51 --> Hooks Class Initialized
+DEBUG - 2016-11-02 05:57:51 --> UTF-8 Support Enabled
+INFO - 2016-11-02 05:57:51 --> Utf8 Class Initialized
+INFO - 2016-11-02 05:57:51 --> URI Class Initialized
+INFO - 2016-11-02 05:57:51 --> Router Class Initialized
+INFO - 2016-11-02 05:57:51 --> Output Class Initialized
+INFO - 2016-11-02 05:57:51 --> Security Class Initialized
+DEBUG - 2016-11-02 05:57:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-02 05:57:51 --> Input Class Initialized
+INFO - 2016-11-02 05:57:51 --> Language Class Initialized
+INFO - 2016-11-02 05:57:51 --> Loader Class Initialized
+INFO - 2016-11-02 05:57:51 --> Helper loaded: url_helper
+INFO - 2016-11-02 05:57:51 --> Helper loaded: file_helper
+INFO - 2016-11-02 05:57:51 --> Helper loaded: date_helper
+INFO - 2016-11-02 05:57:51 --> Helper loaded: common_helper
+INFO - 2016-11-02 05:57:51 --> Database Driver Class Initialized
+INFO - 2016-11-02 05:57:51 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-02 05:57:51 --> Controller Class Initialized
+INFO - 2016-11-02 05:57:51 --> Helper loaded: language_helper
+INFO - 2016-11-02 05:57:51 --> Language file loaded: language/english/admin/common_lang.php
+INFO - 2016-11-02 05:57:51 --> Helper loaded: admin_helper
+INFO - 2016-11-02 05:57:51 --> Model Class Initialized
+INFO - 2016-11-02 05:57:51 --> Model Class Initialized
+INFO - 2016-11-02 05:57:51 --> Language file loaded: language/english/admin/dathang_lang.php
+INFO - 2016-11-02 05:57:51 --> Language file loaded: language/english/admin/user_lang.php
+ERROR - 2016-11-02 05:57:51 --> Severity: Notice --> Undefined property: stdClass::$amount D:\xampp\htdocs\ba3lop\application\controllers\admin\Dathang.php 255
+ERROR - 2016-11-02 05:57:51 --> Severity: Notice --> Undefined property: stdClass::$status D:\xampp\htdocs\ba3lop\application\controllers\admin\Dathang.php 256
+ERROR - 2016-11-02 05:57:51 --> Severity: Notice --> Undefined property: stdClass::$amount D:\xampp\htdocs\ba3lop\application\controllers\admin\Dathang.php 255
+ERROR - 2016-11-02 05:57:51 --> Severity: Notice --> Undefined property: stdClass::$status D:\xampp\htdocs\ba3lop\application\controllers\admin\Dathang.php 256
+ERROR - 2016-11-02 05:57:51 --> Severity: Notice --> Undefined property: stdClass::$amount D:\xampp\htdocs\ba3lop\application\controllers\admin\Dathang.php 255
+ERROR - 2016-11-02 05:57:51 --> Severity: Notice --> Undefined property: stdClass::$status D:\xampp\htdocs\ba3lop\application\controllers\admin\Dathang.php 256
+ERROR - 2016-11-02 05:57:51 --> Severity: Notice --> Undefined property: stdClass::$amount D:\xampp\htdocs\ba3lop\application\views\admin\dathang\export.php 30
+ERROR - 2016-11-02 05:57:51 --> Severity: Notice --> Undefined property: stdClass::$payment D:\xampp\htdocs\ba3lop\application\views\admin\dathang\export.php 32
+ERROR - 2016-11-02 05:57:51 --> Severity: Notice --> Undefined property: stdClass::$status D:\xampp\htdocs\ba3lop\application\views\admin\dathang\export.php 35
+ERROR - 2016-11-02 05:57:51 --> Severity: Notice --> Undefined property: stdClass::$amount D:\xampp\htdocs\ba3lop\application\views\admin\dathang\export.php 30
+ERROR - 2016-11-02 05:57:52 --> Severity: Notice --> Undefined property: stdClass::$payment D:\xampp\htdocs\ba3lop\application\views\admin\dathang\export.php 32
+ERROR - 2016-11-02 05:57:52 --> Severity: Notice --> Undefined property: stdClass::$status D:\xampp\htdocs\ba3lop\application\views\admin\dathang\export.php 35
+ERROR - 2016-11-02 05:57:52 --> Severity: Notice --> Undefined property: stdClass::$amount D:\xampp\htdocs\ba3lop\application\views\admin\dathang\export.php 30
+ERROR - 2016-11-02 05:57:52 --> Severity: Notice --> Undefined property: stdClass::$payment D:\xampp\htdocs\ba3lop\application\views\admin\dathang\export.php 32
+ERROR - 2016-11-02 05:57:52 --> Severity: Notice --> Undefined property: stdClass::$status D:\xampp\htdocs\ba3lop\application\views\admin\dathang\export.php 35
+INFO - 2016-11-02 05:57:52 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/dathang/export.php
+INFO - 2016-11-02 05:57:52 --> Final output sent to browser
+DEBUG - 2016-11-02 05:57:52 --> Total execution time: 0.5340
+INFO - 2016-11-02 05:59:01 --> Config Class Initialized
+INFO - 2016-11-02 05:59:01 --> Hooks Class Initialized
+DEBUG - 2016-11-02 05:59:01 --> UTF-8 Support Enabled
+INFO - 2016-11-02 05:59:01 --> Utf8 Class Initialized
+INFO - 2016-11-02 05:59:01 --> URI Class Initialized
+INFO - 2016-11-02 05:59:01 --> Router Class Initialized
+INFO - 2016-11-02 05:59:01 --> Output Class Initialized
+INFO - 2016-11-02 05:59:01 --> Security Class Initialized
+DEBUG - 2016-11-02 05:59:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-02 05:59:01 --> Input Class Initialized
+INFO - 2016-11-02 05:59:01 --> Language Class Initialized
+INFO - 2016-11-02 05:59:01 --> Loader Class Initialized
+INFO - 2016-11-02 05:59:01 --> Helper loaded: url_helper
+INFO - 2016-11-02 05:59:01 --> Helper loaded: file_helper
+INFO - 2016-11-02 05:59:01 --> Helper loaded: date_helper
+INFO - 2016-11-02 05:59:02 --> Helper loaded: common_helper
+INFO - 2016-11-02 05:59:02 --> Database Driver Class Initialized
+INFO - 2016-11-02 05:59:02 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-02 05:59:02 --> Controller Class Initialized
+INFO - 2016-11-02 05:59:02 --> Helper loaded: language_helper
+INFO - 2016-11-02 05:59:02 --> Language file loaded: language/english/admin/common_lang.php
+INFO - 2016-11-02 05:59:02 --> Helper loaded: admin_helper
+INFO - 2016-11-02 05:59:02 --> Model Class Initialized
+INFO - 2016-11-02 05:59:02 --> Model Class Initialized
+INFO - 2016-11-02 05:59:02 --> Language file loaded: language/english/admin/dathang_lang.php
+INFO - 2016-11-02 05:59:02 --> Language file loaded: language/english/admin/user_lang.php
+ERROR - 2016-11-02 05:59:02 --> Severity: Notice --> Undefined property: stdClass::$amount D:\xampp\htdocs\ba3lop\application\controllers\admin\Dathang.php 293
+ERROR - 2016-11-02 05:59:02 --> Severity: Notice --> Undefined property: stdClass::$status D:\xampp\htdocs\ba3lop\application\controllers\admin\Dathang.php 294
+INFO - 2016-11-02 05:59:02 --> Model Class Initialized
+ERROR - 2016-11-02 05:59:02 --> Query error: Unknown column 'dathang_id' in 'where clause' - Invalid query: SELECT `order`.*, `product`.`name` AS `product_name`, `product`.`price`, `product`.`discount`, `product`.`image_link`, `transaction`.`status` as `transaction_status`, `transaction`.`user_id`, `transaction`.`created`, `transaction`.`amount` AS `transaction_amount`
+FROM `order`
+JOIN `transaction` ON `order`.`transaction_id` = `transaction`.`id`
+JOIN `product` ON `order`.`product_id` = `product`.`id`
+WHERE `dathang_id` = '13'
+ORDER BY `order`.`id` DESC
+INFO - 2016-11-02 05:59:02 --> Language file loaded: language/english/db_lang.php
+INFO - 2016-11-02 06:01:27 --> Config Class Initialized
+INFO - 2016-11-02 06:01:27 --> Hooks Class Initialized
+DEBUG - 2016-11-02 06:01:27 --> UTF-8 Support Enabled
+INFO - 2016-11-02 06:01:27 --> Utf8 Class Initialized
+INFO - 2016-11-02 06:01:27 --> URI Class Initialized
+INFO - 2016-11-02 06:01:27 --> Router Class Initialized
+INFO - 2016-11-02 06:01:27 --> Output Class Initialized
+INFO - 2016-11-02 06:01:27 --> Security Class Initialized
+DEBUG - 2016-11-02 06:01:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-02 06:01:27 --> Input Class Initialized
+INFO - 2016-11-02 06:01:27 --> Language Class Initialized
+INFO - 2016-11-02 06:01:27 --> Loader Class Initialized
+INFO - 2016-11-02 06:01:27 --> Helper loaded: url_helper
+INFO - 2016-11-02 06:01:27 --> Helper loaded: file_helper
+INFO - 2016-11-02 06:01:27 --> Helper loaded: date_helper
+INFO - 2016-11-02 06:01:27 --> Helper loaded: common_helper
+INFO - 2016-11-02 06:01:27 --> Database Driver Class Initialized
+INFO - 2016-11-02 06:01:27 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-02 06:01:27 --> Controller Class Initialized
+INFO - 2016-11-02 06:01:27 --> Helper loaded: language_helper
+INFO - 2016-11-02 06:01:27 --> Language file loaded: language/english/admin/common_lang.php
+INFO - 2016-11-02 06:01:27 --> Helper loaded: admin_helper
+INFO - 2016-11-02 06:01:27 --> Model Class Initialized
+INFO - 2016-11-02 06:01:27 --> Language file loaded: language/english/admin/transaction_lang.php
+INFO - 2016-11-02 06:01:27 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2016-11-02 06:01:27 --> Pagination Class Initialized
+INFO - 2016-11-02 06:01:27 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/head.php
+INFO - 2016-11-02 06:01:27 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/left.php
+INFO - 2016-11-02 06:01:27 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/header.php
+INFO - 2016-11-02 06:01:27 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/transaction/head.php
+INFO - 2016-11-02 06:01:27 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/transaction/index.php
+INFO - 2016-11-02 06:01:27 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/footer.php
+INFO - 2016-11-02 06:01:27 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/main.php
+INFO - 2016-11-02 06:01:27 --> Final output sent to browser
+DEBUG - 2016-11-02 06:01:27 --> Total execution time: 0.4320
+INFO - 2016-11-02 06:01:29 --> Config Class Initialized
+INFO - 2016-11-02 06:01:29 --> Hooks Class Initialized
+DEBUG - 2016-11-02 06:01:29 --> UTF-8 Support Enabled
+INFO - 2016-11-02 06:01:29 --> Utf8 Class Initialized
+INFO - 2016-11-02 06:01:29 --> URI Class Initialized
+INFO - 2016-11-02 06:01:29 --> Router Class Initialized
+INFO - 2016-11-02 06:01:29 --> Output Class Initialized
+INFO - 2016-11-02 06:01:29 --> Security Class Initialized
+DEBUG - 2016-11-02 06:01:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-02 06:01:29 --> Input Class Initialized
+INFO - 2016-11-02 06:01:29 --> Language Class Initialized
+INFO - 2016-11-02 06:01:29 --> Loader Class Initialized
+INFO - 2016-11-02 06:01:29 --> Helper loaded: url_helper
+INFO - 2016-11-02 06:01:29 --> Helper loaded: file_helper
+INFO - 2016-11-02 06:01:29 --> Helper loaded: date_helper
+INFO - 2016-11-02 06:01:29 --> Helper loaded: common_helper
+INFO - 2016-11-02 06:01:29 --> Database Driver Class Initialized
+INFO - 2016-11-02 06:01:29 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-02 06:01:29 --> Controller Class Initialized
+INFO - 2016-11-02 06:01:29 --> Helper loaded: language_helper
+INFO - 2016-11-02 06:01:29 --> Language file loaded: language/english/admin/common_lang.php
+INFO - 2016-11-02 06:01:29 --> Helper loaded: admin_helper
+INFO - 2016-11-02 06:01:29 --> Model Class Initialized
+INFO - 2016-11-02 06:01:29 --> Language file loaded: language/english/admin/transaction_lang.php
+INFO - 2016-11-02 06:01:29 --> Model Class Initialized
+INFO - 2016-11-02 06:01:30 --> Model Class Initialized
+INFO - 2016-11-02 06:01:30 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/transaction/view.php
+INFO - 2016-11-02 06:01:30 --> Final output sent to browser
+DEBUG - 2016-11-02 06:01:30 --> Total execution time: 0.5520
+INFO - 2016-11-02 06:15:50 --> Config Class Initialized
+INFO - 2016-11-02 06:15:50 --> Hooks Class Initialized
+DEBUG - 2016-11-02 06:15:50 --> UTF-8 Support Enabled
+INFO - 2016-11-02 06:15:50 --> Utf8 Class Initialized
+INFO - 2016-11-02 06:15:50 --> URI Class Initialized
+INFO - 2016-11-02 06:15:50 --> Router Class Initialized
+INFO - 2016-11-02 06:15:50 --> Output Class Initialized
+INFO - 2016-11-02 06:15:50 --> Security Class Initialized
+DEBUG - 2016-11-02 06:15:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-02 06:15:50 --> Input Class Initialized
+INFO - 2016-11-02 06:15:50 --> Language Class Initialized
+INFO - 2016-11-02 06:15:50 --> Loader Class Initialized
+INFO - 2016-11-02 06:15:50 --> Helper loaded: url_helper
+INFO - 2016-11-02 06:15:50 --> Helper loaded: file_helper
+INFO - 2016-11-02 06:15:50 --> Helper loaded: date_helper
+INFO - 2016-11-02 06:15:50 --> Helper loaded: common_helper
+INFO - 2016-11-02 06:15:50 --> Database Driver Class Initialized
+INFO - 2016-11-02 06:15:50 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-02 06:15:50 --> Controller Class Initialized
+INFO - 2016-11-02 06:15:50 --> Helper loaded: language_helper
+INFO - 2016-11-02 06:15:50 --> Language file loaded: language/english/admin/common_lang.php
+INFO - 2016-11-02 06:15:50 --> Helper loaded: admin_helper
+INFO - 2016-11-02 06:15:50 --> Model Class Initialized
+INFO - 2016-11-02 06:15:50 --> Model Class Initialized
+INFO - 2016-11-02 06:15:50 --> Language file loaded: language/english/admin/dathang_lang.php
+INFO - 2016-11-02 06:15:50 --> Language file loaded: language/english/admin/user_lang.php
+INFO - 2016-11-02 06:15:50 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2016-11-02 06:15:50 --> Pagination Class Initialized
+INFO - 2016-11-02 06:15:50 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/head.php
+INFO - 2016-11-02 06:15:50 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/left.php
+INFO - 2016-11-02 06:15:50 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/header.php
+INFO - 2016-11-02 06:15:50 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/dathang/head.php
+INFO - 2016-11-02 06:15:50 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/dathang/index.php
+INFO - 2016-11-02 06:15:50 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/footer.php
+INFO - 2016-11-02 06:15:50 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/main.php
+INFO - 2016-11-02 06:15:50 --> Final output sent to browser
+DEBUG - 2016-11-02 06:15:50 --> Total execution time: 0.4460
+INFO - 2016-11-02 06:15:55 --> Config Class Initialized
+INFO - 2016-11-02 06:15:55 --> Hooks Class Initialized
+DEBUG - 2016-11-02 06:15:55 --> UTF-8 Support Enabled
+INFO - 2016-11-02 06:15:55 --> Utf8 Class Initialized
+INFO - 2016-11-02 06:15:55 --> URI Class Initialized
+INFO - 2016-11-02 06:15:55 --> Router Class Initialized
+INFO - 2016-11-02 06:15:55 --> Output Class Initialized
+INFO - 2016-11-02 06:15:55 --> Security Class Initialized
+DEBUG - 2016-11-02 06:15:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-02 06:15:55 --> Input Class Initialized
+INFO - 2016-11-02 06:15:55 --> Language Class Initialized
+INFO - 2016-11-02 06:15:55 --> Loader Class Initialized
+INFO - 2016-11-02 06:15:55 --> Helper loaded: url_helper
+INFO - 2016-11-02 06:15:55 --> Helper loaded: file_helper
+INFO - 2016-11-02 06:15:55 --> Helper loaded: date_helper
+INFO - 2016-11-02 06:15:55 --> Helper loaded: common_helper
+INFO - 2016-11-02 06:15:55 --> Database Driver Class Initialized
+INFO - 2016-11-02 06:15:55 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-02 06:15:55 --> Controller Class Initialized
+INFO - 2016-11-02 06:15:55 --> Helper loaded: language_helper
+INFO - 2016-11-02 06:15:55 --> Language file loaded: language/english/admin/common_lang.php
+INFO - 2016-11-02 06:15:55 --> Helper loaded: admin_helper
+INFO - 2016-11-02 06:15:55 --> Model Class Initialized
+INFO - 2016-11-02 06:15:55 --> Model Class Initialized
+INFO - 2016-11-02 06:15:55 --> Language file loaded: language/english/admin/dathang_lang.php
+INFO - 2016-11-02 06:15:55 --> Language file loaded: language/english/admin/user_lang.php
+ERROR - 2016-11-02 06:15:55 --> Severity: Notice --> Undefined property: stdClass::$amount D:\xampp\htdocs\ba3lop\application\controllers\admin\Dathang.php 293
+ERROR - 2016-11-02 06:15:55 --> Severity: Notice --> Undefined property: stdClass::$status D:\xampp\htdocs\ba3lop\application\controllers\admin\Dathang.php 294
+INFO - 2016-11-02 06:15:55 --> Model Class Initialized
+ERROR - 2016-11-02 06:15:55 --> Query error: Unknown column 'dathang_id' in 'where clause' - Invalid query: SELECT `order`.*, `product`.`name` AS `product_name`, `product`.`price`, `product`.`discount`, `product`.`image_link`, `transaction`.`status` as `transaction_status`, `transaction`.`user_id`, `transaction`.`created`, `transaction`.`amount` AS `transaction_amount`
+FROM `order`
+JOIN `transaction` ON `order`.`transaction_id` = `transaction`.`id`
+JOIN `product` ON `order`.`product_id` = `product`.`id`
+WHERE `dathang_id` = '13'
+ORDER BY `order`.`id` DESC
+INFO - 2016-11-02 06:15:55 --> Language file loaded: language/english/db_lang.php
+INFO - 2016-11-02 06:20:57 --> Config Class Initialized
+INFO - 2016-11-02 06:20:57 --> Hooks Class Initialized
+DEBUG - 2016-11-02 06:20:57 --> UTF-8 Support Enabled
+INFO - 2016-11-02 06:20:57 --> Utf8 Class Initialized
+INFO - 2016-11-02 06:20:57 --> URI Class Initialized
+INFO - 2016-11-02 06:20:57 --> Router Class Initialized
+INFO - 2016-11-02 06:20:57 --> Output Class Initialized
+INFO - 2016-11-02 06:20:57 --> Security Class Initialized
+DEBUG - 2016-11-02 06:20:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-02 06:20:57 --> Input Class Initialized
+INFO - 2016-11-02 06:20:57 --> Language Class Initialized
+INFO - 2016-11-02 06:20:57 --> Loader Class Initialized
+INFO - 2016-11-02 06:20:57 --> Helper loaded: url_helper
+INFO - 2016-11-02 06:20:57 --> Helper loaded: file_helper
+INFO - 2016-11-02 06:20:57 --> Helper loaded: date_helper
+INFO - 2016-11-02 06:20:57 --> Helper loaded: common_helper
+INFO - 2016-11-02 06:20:57 --> Database Driver Class Initialized
+INFO - 2016-11-02 06:20:57 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-02 06:20:57 --> Controller Class Initialized
+INFO - 2016-11-02 06:20:57 --> Helper loaded: language_helper
+INFO - 2016-11-02 06:20:57 --> Language file loaded: language/english/admin/common_lang.php
+INFO - 2016-11-02 06:20:57 --> Helper loaded: admin_helper
+INFO - 2016-11-02 06:20:57 --> Model Class Initialized
+INFO - 2016-11-02 06:20:57 --> Model Class Initialized
+INFO - 2016-11-02 06:20:57 --> Language file loaded: language/english/admin/dathang_lang.php
+INFO - 2016-11-02 06:20:57 --> Language file loaded: language/english/admin/user_lang.php
+ERROR - 2016-11-02 06:20:57 --> Severity: Notice --> Undefined property: stdClass::$amount D:\xampp\htdocs\ba3lop\application\controllers\admin\Dathang.php 293
+ERROR - 2016-11-02 06:20:57 --> Severity: Notice --> Undefined property: stdClass::$status D:\xampp\htdocs\ba3lop\application\controllers\admin\Dathang.php 294
+INFO - 2016-11-02 06:20:57 --> Model Class Initialized
+ERROR - 2016-11-02 06:20:57 --> Query error: Unknown column 'dathang_id' in 'where clause' - Invalid query: SELECT `order`.*, `product`.`name` AS `product_name`, `product`.`price`, `product`.`discount`, `product`.`image_link`, `transaction`.`status` as `transaction_status`, `transaction`.`user_id`, `transaction`.`created`, `transaction`.`amount` AS `transaction_amount`
+FROM `order`
+JOIN `transaction` ON `order`.`transaction_id` = `transaction`.`id`
+JOIN `product` ON `order`.`product_id` = `product`.`id`
+WHERE `dathang_id` = '13'
+ORDER BY `order`.`id` DESC
+INFO - 2016-11-02 06:20:57 --> Language file loaded: language/english/db_lang.php
+INFO - 2016-11-02 06:24:57 --> Config Class Initialized
+INFO - 2016-11-02 06:24:57 --> Hooks Class Initialized
+DEBUG - 2016-11-02 06:24:57 --> UTF-8 Support Enabled
+INFO - 2016-11-02 06:24:57 --> Utf8 Class Initialized
+INFO - 2016-11-02 06:24:57 --> URI Class Initialized
+INFO - 2016-11-02 06:24:57 --> Router Class Initialized
+INFO - 2016-11-02 06:24:57 --> Output Class Initialized
+INFO - 2016-11-02 06:24:57 --> Security Class Initialized
+DEBUG - 2016-11-02 06:24:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-02 06:24:57 --> Input Class Initialized
+INFO - 2016-11-02 06:24:57 --> Language Class Initialized
+INFO - 2016-11-02 06:24:57 --> Loader Class Initialized
+INFO - 2016-11-02 06:24:57 --> Helper loaded: url_helper
+INFO - 2016-11-02 06:24:57 --> Helper loaded: file_helper
+INFO - 2016-11-02 06:24:57 --> Helper loaded: date_helper
+INFO - 2016-11-02 06:24:57 --> Helper loaded: common_helper
+INFO - 2016-11-02 06:24:57 --> Database Driver Class Initialized
+INFO - 2016-11-02 06:24:57 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-02 06:24:57 --> Controller Class Initialized
+INFO - 2016-11-02 06:24:57 --> Helper loaded: language_helper
+INFO - 2016-11-02 06:24:57 --> Language file loaded: language/english/admin/common_lang.php
+INFO - 2016-11-02 06:24:57 --> Helper loaded: admin_helper
+INFO - 2016-11-02 06:24:57 --> Config Class Initialized
+INFO - 2016-11-02 06:24:57 --> Hooks Class Initialized
+DEBUG - 2016-11-02 06:24:57 --> UTF-8 Support Enabled
+INFO - 2016-11-02 06:24:57 --> Utf8 Class Initialized
+INFO - 2016-11-02 06:24:57 --> URI Class Initialized
+INFO - 2016-11-02 06:24:57 --> Router Class Initialized
+INFO - 2016-11-02 06:24:57 --> Output Class Initialized
+INFO - 2016-11-02 06:24:57 --> Security Class Initialized
+DEBUG - 2016-11-02 06:24:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-11-02 06:24:57 --> Input Class Initialized
+INFO - 2016-11-02 06:24:57 --> Language Class Initialized
+INFO - 2016-11-02 06:24:57 --> Loader Class Initialized
+INFO - 2016-11-02 06:24:57 --> Helper loaded: url_helper
+INFO - 2016-11-02 06:24:57 --> Helper loaded: file_helper
+INFO - 2016-11-02 06:24:57 --> Helper loaded: date_helper
+INFO - 2016-11-02 06:24:57 --> Helper loaded: common_helper
+INFO - 2016-11-02 06:24:57 --> Database Driver Class Initialized
+INFO - 2016-11-02 06:24:57 --> Session: Class initialized using 'files' driver.
+INFO - 2016-11-02 06:24:57 --> Controller Class Initialized
+INFO - 2016-11-02 06:24:57 --> Helper loaded: language_helper
+INFO - 2016-11-02 06:24:57 --> Language file loaded: language/english/admin/common_lang.php
+INFO - 2016-11-02 06:24:57 --> Helper loaded: admin_helper
+INFO - 2016-11-02 06:24:57 --> Helper loaded: form_helper
+INFO - 2016-11-02 06:24:57 --> Form Validation Class Initialized
+INFO - 2016-11-02 06:24:57 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/head.php
+INFO - 2016-11-02 06:24:57 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/footer.php
+INFO - 2016-11-02 06:24:57 --> File loaded: D:\xampp\htdocs\ba3lop\application\views\admin/login/index.php
+INFO - 2016-11-02 06:24:57 --> Final output sent to browser
+DEBUG - 2016-11-02 06:24:57 --> Total execution time: 0.3450

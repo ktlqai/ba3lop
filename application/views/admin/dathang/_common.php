@@ -8,12 +8,12 @@
 		
 		<div class="horControlB menu_action">
 			<ul>
-				<li><a href="<?php echo admin_url('user/add'); ?>">
+				<li><a href="<?php echo admin_url('dathang/nhaplieu'); ?>">
 					<img src="<?php echo public_url('admin'); ?>/images/icons/control/16/add.png" />
 					<span><?php echo $this->lang->line('add'); ?></span>
 				</a></li>
 				
-				<li><a href="<?php echo admin_url('user'); ?>">
+				<li><a href="<?php echo admin_url('dathang'); ?>">
 					<img src="<?php echo public_url('admin'); ?>/images/icons/control/16/list.png" />
 					<span><?php echo $this->lang->line('list'); ?></span>
 				</a></li>
