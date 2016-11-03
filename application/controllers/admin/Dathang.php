@@ -290,6 +290,17 @@ Class Dathang extends MY_Controller
         {
             return false;
         }
+
+            // lay thong tin user tu bang user , roi gan vao bien $info
+            $this->load->model('user_model');
+            $user_info = $this->user_model->get_info($info->user_id);
+
+            $info->user_name = $user_info->name;
+            $info->user_email = $user_info->email;
+            $info->user_phone = $user_info->phone;
+
+            $info->message = "Nhap lieu vao thi co msg gi";
+
 		
 					// tu thong tin id cua bang dathang -> ta chuyen sang bang dathang_dong de lay amount .
 					$dathang_id = $info->id;
@@ -336,11 +347,23 @@ Class Dathang extends MY_Controller
             //$product->_url_view = site_url('product/view/'.$product->id);
             	
             //$row->_price = number_format($product->price);
+
+                // thong tin san pham , viet code sua lai . chu lam gi co bang product ma get
+                $product = new stdClass();
+                $product->image = base_url('upload/product/'.'shit.jpg');
+                $product->_url_view = site_url('product/view/'.'shit');
+                            // fake infos for product since datahang_dong is simple (not a table product)
+                            $product->name = $row->tensanpham;
+
+            // fake qty since there is no qty in dathang_dong , but instead it is soluong
+            $row->qty = $row->soluong;                
+                    
+                $row->_price = number_format($row->giadonvi);
 			
 						// make amount for dathang_dong by row , one by one .
 						$row->amount = $row->soluong * $row->giadonvi;
             $row->_amount = number_format($row->amount);
-            //$row->product = $product;
+            $row->product = $product;  // assign the product back to orders
             $row->_can_active = true;//có thể thực hiện kích hoạt đơn hàng này hay không
             $row->_can_cancel = TRUE;//có thể hủy đơn hàng hay không
             
