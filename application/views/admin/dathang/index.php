@@ -127,7 +127,7 @@
 					</td>
 					
 					
-					<td class="textC"><?php echo get_date($row->created)?></td>
+					<td class="textC"><?php echo ($row->notkeyword_date)//get_date($row->created)?></td>
 					
 					<td class="option textC">
 						<a title="Xem chi tiết giao dịch" class="tipS lightbox" href="<?php echo admin_url('dathang/view/'.$row->id)?>">

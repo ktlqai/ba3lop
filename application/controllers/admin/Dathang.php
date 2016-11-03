@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 Class Dathang extends MY_Controller
 {
     function __construct()
@@ -290,6 +290,20 @@ Class Dathang extends MY_Controller
         {
             return false;
         }
+		
+					// tu thong tin id cua bang dathang -> ta chuyen sang bang dathang_dong de lay amount .
+					$dathang_id = $info->id;
+					
+					$query = $this->db->query('SELECT SUM(soluong * giadonvi) as tongthanhtien FROM dathang_dong WHERE dathang_id = ' . $dathang_id);
+					
+					$tongthanhtien = $query->row()->tongthanhtien;
+					
+					$info->amount = $tongthanhtien;
+					
+					$info->payment = 'dont care';
+					
+					$info->status = 'why to care';
+		
         $info->_amount = number_format($info->amount);
         if($info->status == 0)
         {
@@ -304,29 +318,34 @@ Class Dathang extends MY_Controller
             $info->_status = 'cancel';//hủy bỏ
         }
         //lấy danh sách đơn hàng  của giao dịch này
-        $this->load->model('order_model');
+        $this->load->model('dathang_dong_model');
         $input = array();
         $input['where'] = array('dathang_id' => $id);
-        $orders = $this->order_model->get_list($input);
+        $orders = $this->dathang_dong_model->get_list($input);
         if(!$orders)
         {
             return false;
         }
         //load model sản phẩm product_model
-        $this->load->model('product_model');
+        //$this->load->model('product_model');
         foreach ($orders as $row)
         {
             //thông tin sản phẩm
-            $product = $this->product_model->get_info($row->product_id);
-            $product->image = base_url('upload/product/'.$product->image_link);
-            $product->_url_view = site_url('product/view/'.$product->id);
+            //$product = $this->product_model->get_info($row->product_id);
+            //$product->image = base_url('upload/product/'.$product->image_link);
+            //$product->_url_view = site_url('product/view/'.$product->id);
             	
-            $row->_price = number_format($product->price);
+            //$row->_price = number_format($product->price);
+			
+						// make amount for dathang_dong by row , one by one .
+						$row->amount = $row->soluong * $row->giadonvi;
             $row->_amount = number_format($row->amount);
-            $row->product = $product;
+            //$row->product = $product;
             $row->_can_active = true;//có thể thực hiện kích hoạt đơn hàng này hay không
             $row->_can_cancel = TRUE;//có thể hủy đơn hàng hay không
-           
+            
+						// fake the status (as in dathang_dong , there is no status column)
+						$row->status = 1;
             if($row->status == 0)
             {
                 $row->_status     = 'pending';//đợi xử lý
