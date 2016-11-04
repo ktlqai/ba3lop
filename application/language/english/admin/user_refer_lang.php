@@ -27,7 +27,7 @@ $lang['user_group']							= 'Nhóm người giới thiệu';//'Nhóm thành viê
 $lang['payment']				        	= 'Cổng thanh toán';
 $lang['payment_total_amount']				= 'Số tiền giao dịch tối đa trong 1 ngày';
 
-$lang['full_name']				   			= 'Họ tên';
+$lang['full_name_refer']				   			= 'Người giới thiệu';
 $lang['card_no']				   			= 'Số chứng minh nhân dân';
 $lang['card_place']				   			= 'Nơi cấp';
 $lang['card_date']				   			= 'Ngày cấp';

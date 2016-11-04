@@ -84,6 +84,8 @@
 					<li><span><?php echo lang('email'); ?>:</span><?php echo $info->user_email; ?></li>
 					<li><span><?php echo lang('phone'); ?>:</span><?php echo $info->user_phone; ?></li>
 				    <li><span>Lời nhắn:</span> <?php echo $info->message; ?></li>
+
+				    <li><span><?php echo lang('full_name_refer'); ?>:</span><?php echo $info->user_refer_name; ?></li>
 				</ul>
 			</div>
 			
@@ -95,18 +97,19 @@
 			<?php foreach ($orders as $row):?>
 			<div class="left mt5 "  style='margin-left:5px;'>
 			    
-			    <a target='_blank' href='<?php echo $row->product->_url_view; ?>' title='<?php echo $row->product->name; ?>'>
+			    <!--<a target='_blank' href='<?php echo $row->product->_url_view; ?>' title='<?php echo $row->product->name; ?>'>
 				   <img class="left dInline mr10" style="width:100px; max-height:100px;"src='<?php echo $row->product->image; ?>' alt='<?php echo $row->product->name; ?>'>
 				 
-				</a>
+				</a>-->
 				
 				<div class="left dInline">
 					<ul class="list2 valueB list_product_info" style="margin-top:-8px;">
 					    
 						<li class="fontB blue f13">
-							<a target='_blank' href='<?php echo $row->product->_url_view; ?>' title='<?php echo $row->product->name; ?>'>
+							<!--<a target='_blank' href='<?php echo $row->product->_url_view; ?>' title='<?php echo $row->product->name; ?>'>
 								<?php echo $row->product->name; ?>
-							</a>
+							</a>-->
+							<?php echo $row->product->name; ?>
 						</li>
 						<li><span><?php echo lang('price'); ?>:</span><?php echo $row->_price; ?></li>
 						<li><span><?php echo lang('quantity'); ?>:</span><?php echo $row->qty; ?></li>
@@ -115,7 +118,7 @@
 						
 					</ul>
 					
-					<div class='action'>
+					<!--<div class='action'>
 					   <?php if ($row->_can_active): ?>
 							<a href="<?php echo $row->_url_active; ?>" class="button blueB mr5">
 							<span><?php echo lang('active'); ?></span>
@@ -127,7 +130,7 @@
 						<?php echo lang('cancel'); ?></span></a>
 					    <?php endif;?>
 					
-				</div>
+				</div>-->
 			</div>
 			</div>
 			<div class="clear" style='height:5px'></div>	

@@ -13,6 +13,7 @@ Class Dathang extends MY_Controller
         $this->load->helper('language');
         $this->lang->load('admin/dathang');
 		$this->lang->load('admin/user');
+        $this->lang->load('admin/user_refer');
         $this->lang->load('admin/common');
         
     }
@@ -300,6 +301,11 @@ Class Dathang extends MY_Controller
             $info->user_phone = $user_info->phone;
 
             $info->message = "Nhap lieu vao thi co msg gi";
+
+            	$this->load->model('user_refer_model');
+	            $user_refer_info = $this->user_refer_model->get_info($info->user_refer_id);
+
+	            $info->user_refer_name = $user_refer_info->name;
 
 		
 					// tu thong tin id cua bang dathang -> ta chuyen sang bang dathang_dong de lay amount .

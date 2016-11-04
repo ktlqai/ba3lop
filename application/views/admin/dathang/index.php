@@ -25,14 +25,14 @@
 							<td class="label" style="width:60px;"><label for="filter_id"><?php echo lang('no.'); ?></label></td>
 							<td class="item"><input name="id" value="<?php if(isset($filter['id'])){echo $filter['id'];}?>" id="filter_id" type="text" style="width:95px;" /></td>
 							
-							<td class="label" style="width:60px;"><label for="filter_type"><?php echo lang('tran_payment'); ?></label></td>
+							<td class="label" style="width:60px;"><!--<label for="filter_type"><?php echo lang('tran_payment'); ?></label>--></td>
 							<td class="item">
-								<select name="payment">
+								<!--<select name="payment">
 									<option value=""></option>
 									<option value='nganluong' <?php if(isset($filter['payment']) && $filter['payment']=='nganluong'){echo 'selected';}?>>Ngân lượng</option>
 									<option value='baokim' <?php if(isset($filter['payment']) && $filter['payment']=='baokim'){echo 'selected';}?>>Bảo kim</option>
 									<option value='dathang' <?php if(isset($filter['payment']) && $filter['payment']=='dathang'){echo 'selected';}?>>Đặt hàng</option>
-								</select>
+								</select>-->
 							</td>
 							
 							<td class="label" style="width:60px;"><label for="filter_created"><?php echo lang('from_date'); ?></label></td>
@@ -50,7 +50,10 @@
 						    <td class="label" style="width:60px;"><label for="filter_user"><?php echo lang('user'); ?></label></td>
 							<td class="item"><input name="user" value="<?php if(isset($filter['user_id'])){echo $filter['user_id'];}?>" id="filter_user" class="tipS" title="<?php echo lang('note_enter_user_id')?>" type="text" /></td>
 
-							<td class="label"><label for="filter_status"><?php echo lang('tran'); ?></label></td>
+							<td class="label" style="width:60px;"><label for="filter_user"><?php echo lang('user_refer'); ?></label></td>
+							<td class="item"><input name="user" value="<?php if(isset($filter['user_refer_id'])){echo $filter['user_refer_id'];}?>" id="filter_user_refer" class="tipS" title="<?php echo lang('note_enter_user_refer_id')?>" type="text" /></td>
+
+							<!--<td class="label"><label for="filter_status"><?php echo lang('tran'); ?></label></td>
 							<td class="item">
 								<select name="status">
 									<option></option>
@@ -58,7 +61,7 @@
 									<option value='1' <?php if(isset($filter['status']) && $filter['status']=='1'){echo 'selected';}?>>Thành công</option>
 									<option value='2' <?php if(isset($filter['status']) && $filter['status']=='2'){echo 'selected';}?>>Hủy bỏ</option>
 								</select>
-							</td>
+							</td>-->
 
 							<td class="label"><label for="filter_created_to"><?php echo lang('to_date'); ?></label></td>
 							<td class="item"><input name="created_to" value="<?php if($created_to){echo $created_to;}?>" id="filter_created_to" type="text" class="datepicker" /></td>
