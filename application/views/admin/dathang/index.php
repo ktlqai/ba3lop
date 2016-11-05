@@ -47,8 +47,8 @@
 						</tr>
 						
 						<tr>
-						    <td class="label" style="width:60px;"><label for="filter_user"><?php echo lang('user'); ?></label></td>
-							<td class="item"><input name="user" value="<?php if(isset($filter['user_id'])){echo $filter['user_id'];}?>" id="filter_user" class="tipS" title="<?php echo lang('note_enter_user_id')?>" type="text" /></td>
+						    <td class="label" style="width:60px;"><label for="filter_user"><?php echo lang('user_common_lang'); ?></label></td>
+							<td class="item"><input name="user" value="<?php if(isset($filter['user_id'])){echo $filter['user_id'];}?>" id="filter_user" class="tipS" titlex="<?php echo lang('note_enter_user_id')?>" type="text" /></td>
 
 							<td class="label" style="width:60px;"><label for="filter_user"><?php echo lang('user_refer'); ?></label></td>
 							<td class="item"><input name="user" value="<?php if(isset($filter['user_refer_id'])){echo $filter['user_refer_id'];}?>" id="filter_user_refer" class="tipS" title="<?php echo lang('note_enter_user_refer_id')?>" type="text" /></td>
@@ -82,7 +82,7 @@
 					<td>Cổng thanh toán</td>
 					<td>Trạng thái</td>
 					
-					<td style="width:75px;">Ngày tạo</td>
+					<td style="width:75px;"><!--(Ko phải Ngày tạo) -->Ngày giao dịch</td>
 					<td style="width:120px;">Hành động</td>
 				</tr>
 			</thead>

@@ -34,7 +34,11 @@
 				<ul style="display: none;" class="sub">
 								<li>
 									<a href="<?php echo admin_url('dathang/nhaplieu')?>">
-										Đơn hàng							</a>
+										Nhập đơn hàng							</a>
+								</li>
+								<li>
+									<a href="<?php echo admin_url('dathang/')?>">
+										Xem đơn hàng							</a>
 								</li>
 								<!--
 								<li>

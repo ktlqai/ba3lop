@@ -1,4 +1,10 @@
 <?php
+// bull-shit , i don't know where to put some langs , so i put them here
+
+$lang['user_refer'] = 'Người giới thiệu';
+$lang['user_common_lang'] = 'Khách hàng';
+
+
 //status
 $lang['order_status_pending']           = 'Chờ xử lý';
 $lang['order_status_completed']         = 'Đã gửi hàng';
