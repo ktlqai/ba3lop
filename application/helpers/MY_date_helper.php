@@ -153,3 +153,11 @@
 		$data = array('start' => $time_start, 'end' => $time_end);
 		return $data;
 	}
+
+	// chuyen dinh dang ngay tu mysql sang ngay-thang-nam
+	function date_mysql_to_inverse($ngay) {
+		$ngay_temps = explode('-', $ngay);
+		$ngay_inversed = $ngay_temps[2] . '-' . $ngay_temps[1] . '-' . $ngay_temps[0];
+
+		return $ngay_inversed;
+	}

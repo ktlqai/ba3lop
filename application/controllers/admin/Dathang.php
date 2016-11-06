@@ -191,7 +191,7 @@ Class Dathang extends MY_Controller
             $where['status'] = $status;
         }
         //lọc theo thời gian
-   	    $created_to = $this->input->get('created_to');
+   	    /*$created_to = $this->input->get('created_to');
    	    $created    = $this->input->get('created');
    	    if($created && $created_to)
    	    {
@@ -202,6 +202,30 @@ Class Dathang extends MY_Controller
 	   	    {	
 		   	    $where['created >='] = $time['start'];
 		   	    $where['created <='] = $time['end'];
+	   	    }
+   	    }*/
+   	    // lọc theo ngay_giao_dich , chứ ko phải ngày created
+   	    // lam bieng sua front-end , nen de nguyen html form , created
+   	    $created_to = $this->input->get('created_to');
+   	    $created    = $this->input->get('created');
+   	    if($created && $created_to)
+   	    {
+   	    	//tiem kiem tu ngay A -> B
+   	    	//$time = get_time_between_day($created,$created_to);
+   	        //nếu dữ liệu trả về hợp lệ
+
+   	    	// chuyen doi dinh dang cua html form , sang dinh dang mysql
+   	    	$created_to_temps = explode('-', $created_to);
+			$created_to_in_mysql = $created_to_temps[2] . '-' . $created_to_temps[1] . '-' . $created_to_temps[0];
+
+			$created_temps = explode('-', $created);
+			$created_in_mysql = $created_temps[2] . '-' . $created_temps[1] . '-' . $created_temps[0];
+
+	   	    //if(is_array($time))
+
+	   	    {	
+		   	    $where['notkeyword_date >='] = $created_in_mysql;
+		   	    $where['notkeyword_date <='] = $created_to_in_mysql;
 	   	    }
    	    }
         //gắn các điệu điện lọc
